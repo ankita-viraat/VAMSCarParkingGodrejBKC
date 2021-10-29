@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/questionlist"
+            android:textColor="@color/versionTextColor"
+            android:textSize="@dimen/dim_25" />
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_alignParentEnd="true"
+            android:layout_width="@dimen/dim_16"
+            android:layout_height="@dimen/dim_16"
+            android:src="@drawable/cancel" />
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnConfirm_QuestionListDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/loginBtn"
+        android:paddingBottom="14dp"
+        android:paddingTop="14dp"
+        android:text="@string/confirm"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textAppearance="@style/customMontserratBold"
+        android:textColor="@color/logintxtColor" />
+
+</LinearLayout>

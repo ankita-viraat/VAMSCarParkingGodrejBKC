@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_16">16dp</dimen>
+    <dimen name="dim_14">14dp</dimen>
+    <dimen name="view_border_height">2px</dimen>
+    <dimen name="large_text_size">25sp</dimen>
+    <dimen name="dim_25">25dp</dimen>
+    <dimen name="dim_32">32dp</dimen>
+    <dimen name="dim_48">48dp</dimen>
+    <dimen name="dim_24">24dp</dimen>
+    <dimen name="dim_8">8dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="dimen_75">75dp</dimen>
+    <dimen name="text_size_55">55sp</dimen>
+    <dimen name="visitorlogoutTextSize">30sp</dimen>
+    <dimen name="dim_42">42dp</dimen>
+    <dimen name="dim_10">10dp</dimen>
+    <dimen name="dim_70">70dp</dimen>
+    <dimen name="dim_txt_size_16">16sp</dimen>
+    <dimen name="dim_4">4dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dim_30">30dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+
+    <dimen name="logoTextSizeSmall">36sp</dimen>
+    <dimen name="dim_60">60dp</dimen>
+    <dimen name="dimen_85">85dp</dimen>
+    <dimen name="dimen_55">55dp</dimen>
+    <dimen name="dim_52">52dp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_125">125dp</dimen>
+    <dimen name="dimen_48">45dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="small_text_size">20sp</dimen>
+    <dimen name="forgotTextSize">12sp</dimen>
+    <dimen name="or_textsize">22dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dim_12">12dp</dimen>
+    <dimen name="dimen_65">65</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="dialog_margin_left">40dp</dimen>
+    <dimen name="dialog_margin_right">40dp</dimen>
+    <dimen name="txt_size">16sp</dimen>
+    <dimen name="longtextsize">22sp</dimen>
+
+
+</resources>

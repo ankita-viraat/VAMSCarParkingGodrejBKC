@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dim_10">
+
+
+    <LinearLayout
+        android:id="@+id/llbtnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etPreAppointmentVisitorBadge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:maxLength="@integer/email_length"
+            android:digits="@string/emailDigits"
+            android:singleLine="true"
+            android:background="@drawable/edittext_bg_default"
+            android:hint="@string/visitor_name_mobile_access_card_no" />
+
+        <Button
+            android:id="@+id/btnSearchPrintVisitorBadge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:padding="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/loginBtn"
+            android:text="@string/search"
+            android:textAllCaps="true"
+            android:textAppearance="@style/customMontserratBold"
+            android:textColor="@color/logintxtColor"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/llbtnSearch"
+        android:layout_marginBottom="@dimen/dim_10"
+        android:layout_marginTop="@dimen/dim_10"
+        android:padding="@dimen/dim_10"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_visitorBadgelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvNoDataFound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dim_10"
+            android:layout_marginTop="@dimen/dim_10"
+            android:text="@string/no_data_found"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

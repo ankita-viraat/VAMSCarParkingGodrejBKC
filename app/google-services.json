@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "837901954133",
+    "firebase_url": "https://zkteco-a1fe9.firebaseio.com",
+    "project_id": "zkteco-a1fe9",
+    "storage_bucket": "zkteco-a1fe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837901954133:android:268d71028c01f71e8278dc",
+        "android_client_info": {
+          "package_name": "info.vams.zktecoedu.reception"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837901954133-gbmn5iglbddbhtkhs1n0iphj504g3p8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.vams.zktecoedu.reception",
+            "certificate_hash": "6bbe857dc8899911996d289e8b5937dd029ae81e"
+          }
+        },
+        {
+          "client_id": "837901954133-89mn2p7vr12ec6t8hl61taii1qo0em8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBotBNVYyrL3uLqAr_D-ZBgyKWsDqQExIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837901954133-89mn2p7vr12ec6t8hl61taii1qo0em8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

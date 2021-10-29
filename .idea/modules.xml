@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ZKVAMS_EDU_Rec.iml" filepath="$PROJECT_DIR$/.idea/ZKVAMS_EDU_Rec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ZKVAMS_EDU_Rec.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ZKVAMS_EDU_Rec.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barcode-reader/ZKVAMS_EDU_Rec.barcode-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/barcode-reader/ZKVAMS_EDU_Rec.barcode-reader.iml" />
+    </modules>
+  </component>
+</project>

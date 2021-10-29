@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swMain"
+    android:background="@drawable/swipe_enabled_bg"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#cacaca"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/ivApprove"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_round_approve" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <View
+                android:id="@+id/viewSideColor"
+                android:layout_width="8px"
+                android:layout_height="match_parent"
+                android:background="@color/submitBtn"></View>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cvParentProfile"
+                    android:layout_width="@dimen/dimen_75"
+                    android:layout_height="@dimen/dimen_75"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/profile" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tvparentName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/parentname"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textSize="@dimen/dim_14" />
+
+                    <TextView
+                        android:id="@+id/tvParentMobile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:text="@string/parentmobile" />
+
+
+                    <TextView
+                        android:id="@+id/tvParentEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:text="@string/parentemail" />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_border_height"
+            android:layout_below="@+id/llmain"
+            android:background="@color/border_color"></View>-->
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

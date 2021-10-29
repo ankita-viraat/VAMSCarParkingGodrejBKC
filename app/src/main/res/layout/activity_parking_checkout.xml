@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_toolbar_LogoutActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_logoutList"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="@dimen/abc_action_bar_default_height_material">
+
+            <ImageView
+                android:id="@+id/ivBackImage_Logout"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/ivLogo_logoutActivity"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_godrejlogo" />
+
+            <ImageView
+                android:id="@+id/ivReset_Logout"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:src="@drawable/reset" />
+
+            <ImageView
+                android:id="@+id/ivSos"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_sos"
+                android:visibility="gone" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_toolbar_LogoutActivity"
+        android:background="@color/light_gray"
+        android:focusableInTouchMode="true"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal">
+
+
+           <!-- <EditText
+                android:id="@+id/etSearchBar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:background="@drawable/edittext_bg_default"
+                android:ems="10"
+                android:hint="@string/search_by_vehicle_number"
+                android:inputType="textPersonName"
+                android:animateLayoutChanges="true"
+
+                android:paddingLeft="5dp" />-->
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.3"
+                android:animateLayoutChanges="true"
+                android:background="@color/loginColor"
+                android:text="Search"
+
+                android:textAllCaps="true"
+                android:textAppearance="@style/customMontserratBold"
+                android:textColor="@color/logintxtColor"
+                android:visibility="gone" />
+            <EditText
+                android:id="@+id/etSearchBar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"
+                android:animateLayoutChanges="true"
+                android:background="@drawable/edittext_focude_effect"
+                android:digits="@string/questionsDigits"
+                android:hint="@string/search_by_vehicle_number"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:maxLength="30"
+                android:nextFocusDown="@id/atcParkingLoc"
+                android:singleLine="true"
+                android:textAppearance="@style/customMontserratRegular" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvNoDataFound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="@string/no_data_found"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLogoutList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_searchBar"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            style="@style/customMontserratSemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="18dp"
+            android:layout_weight="1"
+            android:text="@string/driving_license"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/ivDrivingLicenseCancel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/green_cancel" />
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/dim_8"
+        android:background="@color/gray" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_below="@id/tvHeader"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:animateLayoutChanges="true"
+            android:fillViewport="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="@dimen/dim_25">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/first_name"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseFirstName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/visitorNameDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/visitorName"
+                        android:inputType="textCapSentences"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim_16"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/last_name"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseLastName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/visitorNameDigits"
+                        android:imeOptions="actionNext"
+                        android:inputType="textCapSentences"
+                        android:maxLength="@integer/visitorName"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llAddtionalDetailRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim_16"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/remarks"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseRemarks"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/accessCardDigits"
+                        android:imeOptions="actionNext"
+                        android:inputType="textCapSentences"
+                        android:maxLength="@integer/accessCardNoMaxlength"
+                        android:nextFocusDown="@id/etAuthenticationKey_visitorEntryTwo"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/driving_license_number"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseDLNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/companyDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/int_225"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/date_of_birth"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseDOB"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/companyDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/int_225"
+                        android:inputType="textCapWords"
+                        android:nextFocusDown="@id/actv_visitorEntrypersonToMeet"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/state_code"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseState"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/companyDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/int_225"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/city"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseNationality"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/companyDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/int_225"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/zipcode"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseCountry"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/companyDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/int_225"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/gender"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseGender"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/companyDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/int_225"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/expiry_date"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseExpiryDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/companyDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/int_225"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="@integer/weightsum_10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="4"
+                        android:singleLine="false"
+                        android:text="@string/issue_date"
+                        android:textAppearance="@style/customMontserratRegular"
+                        android:textColor="#000" />
+
+                    <EditText
+                        android:id="@+id/etDrivingLicenseIssueDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5.8"
+                        android:background="@drawable/edittext_focude_effect"
+                        android:digits="@string/companyDigits"
+                        android:imeOptions="actionNext"
+                        android:maxLength="@integer/int_225"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratRegular" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="@dimen/dim_16"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDrivingLicenseConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@color/loginBtn"
+            android:text="@string/confirm"
+            android:textAllCaps="true"
+            android:textAppearance="@style/customMontserratBold"
+            android:textColor="@color/logintxtColor"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

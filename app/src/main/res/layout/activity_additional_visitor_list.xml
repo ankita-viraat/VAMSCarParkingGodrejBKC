@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.vams.zktecoedu.reception.Activity.AdditionalVisitorList">
+
+    <LinearLayout
+        android:id="@+id/ll_additionalVitirorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_additionalVitirorList"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="@dimen/abc_action_bar_default_height_material">
+            <ImageView
+                android:id="@+id/additionalVitirorListBackImage"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:src="@drawable/back" />
+            <!--<ImageView
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vams_logo" />-->
+
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sampleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="@dimen/dim_16"
+        android:text="Additional Visitor"
+        android:textAppearance="@style/customMontserratRegular"
+        android:textAlignment="center"
+        android:layout_below="@+id/ll_additionalVitirorList"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_additionalVisitirList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sampleText"/>
+
+
+
+</RelativeLayout>

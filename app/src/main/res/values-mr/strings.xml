@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--
+    <string name="app_name">"वाम्स व्यावसायिक पर्यटक"</string>
+-->
+
+    <string name="app_name">VAMS</string>
+
+
+    <string name="language_spinner_title">"भाषा निवडा"</string>
+
+    <string name="welcome">"आपले स्वागत आहे!"</string>
+
+    <string name="hint_email">"वापरकर्तानाव"</string>
+
+    <string name="hint_password">"पासवर्ड"</string>
+
+    <string name="no_internet_msg">"कृपया आपले इंटरनेट कनेक्शन तपासा"</string>
+
+    <string name="btn_login">"लॉग इन"</string>
+
+    <string name="powered_by">"द्वारा समर्थित"</string>
+
+    <string name="version">"v 2.0"</string>
+
+    <string name="confirmAppointment">"खात्रीपूर्वक नियोजित अॅनिपिटमेंट आहे का?"</string>
+
+    <string name="hint_scanidcard">"स्कॅन आयडी कार्ड"</string>
+
+    <string name="OR">"किंवा"</string>
+
+    <string name="hint_visitormobile">"पर्यटक मोबाईल नंबर प्रविष्ट करा"</string>
+
+    <string name="btn_next">"पुढे"</string>
+
+    <string name="contract">"कंत्राटदार प्रवेश"</string>
+
+    <string name="visitorentry">"आगंतुक प्रवेश"</string>
+
+    <string name="visitorlogout">"अभ्यागत लॉगआउट"</string>
+
+    <string name="scanner">"स्कॅनर"</string>
+
+    <string name="hint_complexname">"कॉम्प्लेक्स नेम"</string>
+
+    <string name="hint_tenantName">"भाडेकरू नाव"</string>
+
+    <string name="hint_buildingName">"इमारत नाव"</string>
+
+    <string name="entervisitormobile">"गेस्ट मोबाईल नंबर नाही"</string>
+
+    <string name="entervisitoremail">"अभ्यागताला ईमेल ENTER"</string>
+
+    <string name="hint_mobileNo">"मोबाइल क्रमांक"</string>
+
+    <string name="scanidcard">"स्कॅन आयडी कार्ड"</string>
+
+    <string name="bypass">"बायपास"</string>
+
+    <string name="submit">"सबमिट करा"</string>
+
+    <string name="idProof">"आयडी पुरावा"</string>
+
+    <string name="firstimage">"प्रथम प्रतिमा"</string>
+
+    <string name="lastimage">"अंतिम प्रतिमा"</string>
+
+    <string name="captureid">"कॅप्चर आयडी पुरावा"</string>
+
+    <string name="visitorName">"अभ्यागत नाव"</string>
+
+    <string name="company">"पर्यटक कंपनी"</string>
+
+    <string name="emailId">"अभ्यागत ईमेल आयडी"</string>
+
+    <string name="contact">"संपर्क क्रमांक"</string>
+
+    <string name="typeofvisitor">"अभ्यागत प्रकार"</string>
+
+    <string name="persontomeet">"भेटण्याची व्यक्ती"</string>
+
+    <string name="purposeofvisit">"भेटीचे कारण"</string>
+
+    <string name="official">"अधिकृत"</string>
+
+    <string name="personal">"वैयक्तिक"</string>
+
+    <string name="accesscardno">"प्रवेश कार्ड क्रमांक"</string>
+
+    <string name="Selectid">"ID प्रकार निवडा"</string>
+
+    <string name="cardno">"कार्ड नंबर"</string>
+
+    <string name="vehicleno">"वाहन नंबर"</string>
+
+    <string name="nationalIdNo">"राष्ट्रीय आयडी क्रमांक"</string>
+
+    <string name="mrzNo">"एमआरझेड क्र"</string>
+
+    <string name="gender">"लिंग"</string>
+
+    <string name="male">"नर"</string>
+
+    <string name="female">"स्त्री"</string>
+
+    <string name="nationality">"राष्ट्रीयत्व"</string>
+
+    <string name="dateofbirth">"जन्म तारीख"</string>
+
+    <string name="dateofexpiry">"समाप्तीची तारीख"</string>
+
+    <string name="personalremark">"वैयक्तिक टीका"</string>
+
+    <string name="authenticatioKey">"प्रमाणीकरण की"</string>
+
+    <string name="resendotp">"की पुन्हा पाठवा"</string>
+
+    <string name="username">"वापरकर्तानाव"</string>
+
+    <string name="confirm">"पुष्टी"</string>
+
+    <string name="enterPassword">"पासवर्ड"</string>
+
+    <string name="cancel">"रद्द करा"</string>
+
+    <string name="error_login">"अवैध ईमेल"</string>
+
+    <string name="errorMessageLoginId">"वापरकर्तानाव आवश्यक आहे"</string>
+
+    <string name="errorMessageLoginIdOne">"वापरकर्त्याचे नाव 6 अंकांपेक्षा मोठे असणे आवश्यक आहे"</string>
+
+    <string name="loginId">"Rahulkadge12@gmail.com"</string>
+
+    <string name="password">"1 आब @ आरए"</string>
+
+    <string name="error_password">"अवैध पासवर्ड"</string>
+
+    <string name="emailRequired">"लॉगिन आयडी आवश्यक आहे"</string>
+
+    <string name="passwordRequired">"पासवर्ड आवश्यक आहे"</string>
+
+    <string name="invalidPassword">"अवैध पासवर्ड"</string>
+
+    <string name="mobileRequired">"मोबाईलची आवश्यकता नाही"</string>
+
+    <string name="invalidMobile">"अवैध मोबाईल क्रमांक"</string>
+    <string name="hint_emailaddress">"ईमेल"</string>
+    <string name="visitorMobile">"पर्यटक मोबाइल क्रमांक"</string>
+    <string name="visitor_email">"अभ्यागत ईमेल"</string>
+    <string name="idphototype">"आयडी पुरावा प्रकार"</string>
+    <string name="idproofNo">"आयडी प्रमाण क्रमांक नाही"</string>
+    <string name="remarks">"टीका"</string>
+    <string name="vehiclenoregistrationNo">"वाहन नोंदणी क्रमांक"</string>
+    <string name="noOfVisitor">"अभ्यागतांची संख्या"</string>
+    <string name="are_you_carry_hardware">"आपण कोणत्याही हार्डवेअर पार पाडण्यासाठी आहेत?"</string>
+    <string name="camera">"कॅमेरा"</string>
+    <string name="label_spinner_promt">"एन एन"</string>
+    <string name="mobileno">"मोबाइल क्रमांक"</string>
+    <string name="isd">"9 1 9"</string>
+    <string name="mobileNOhint">"99875 9 805"</string>
+    <string name="email">"अभ्यागत ईमेल"</string>
+    <string name="name">"अभ्यागत नाव"</string>
+    <string name="companyAdditionvisitor">"पर्यटक कंपनी"</string>
+    <string name="stayandmore">"&lt;! [सीडीएटीए [राहा आणि अधिक जोडा"</string>
+    <string name="takePhoto">"छायाचित्र घे"</string>
+    <string name="emailAddress">"darshil@gmail.com"</string>
+    <string name="balzonion">"ब्लेझोनियन"</string>
+    <string name="remarksHint">"प्रविष्ट करा"</string>
+    <string name="NameHint">"Darshil Karla शाह"</string>
+    <string name="taptoScan">"(स्कॅन करण्यासाठी टॅप करा)"</string>
+    <string name="take_photo">"छायाचित्र घे"</string>
+    <string name="registerImage">"नोंदणीकृत व्हिजिटर फोटो"</string>
+    <string name="visitorcomplexName">"कॉम्प्लेक्स नेम"</string>
+    <string name="answer">"उत्तर द्या"</string>
+    <string name="loginId_error">"वापरकर्तानाव आवश्यक आहे"</string>
+    <string name="password_error">"पासवर्ड आवश्यक आहे"</string>
+    <string name="visitorbuildingName">"इमारत नाव"</string>
+    <string name="visitortenantName">"भाडेकरू नाव"</string>
+    <string name="authentication_error">"प्रमाणीकरण की आवश्यक आहे"</string>
+    <string name="btn_text_multi_visitor">"पहा"</string>
+    <string name="btn_text_add">"जोडा"</string>
+    <string name="error_login_id_required">"वापरकर्तानाव आवश्यक आहे"</string>
+    <string name="error_password_required">"पासवर्ड आवश्यक आहे"</string>
+    <string name="error_key_required">"प्रमाणीकरण की आवश्यक"</string>
+    <string name="error_visitor_name">"अभ्यागत नाव आवश्यक"</string>
+    <string name="error_person_to_meet">"भेटण्याची व्यक्ती आवश्यक आहे"</string>
+    <string name="error_tanent_name">"Tanent नाव आवश्यक"</string>
+    <string name="mobileAlreadyRegister">"त्याच मोबाइल क्रमांकासह अभ्यागत आधीच जोडलेला आहे"</string>
+    <string name="usernameDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 -_. #"</string>
+    <string name="tenantDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 &amp; (,.) - '# / \\"</string>
+    <string name="emailDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 @. _ _"</string>
+    <string name="companyDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 &amp; (,.) - '#"</string>
+    <string name="visitorNameDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 \"'\""</string>
+    <string name="vehicleRegDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"</string>
+    <string name="accessCardDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 &amp; # / \\ (,--_)"</string>
+    <string name="questionsDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 आणि '# / \\ (,--_)"</string>
+    <string name="visitor_name_digits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz '"</string>
+
+    <string name="aadharcardvalidationerror">"आधार कार्ड क्रमांक 12 अंकी असावा"</string>
+    <string name="pancarderror">"पॅन कार्ड नंबर 10 अंकी असावा"</string>
+    <string name="mintwoDigit">"किमान 2 अंक आवश्यक"</string>
+    <string name="canceldialog">"रद्द करा"</string>
+    <string name="pick_image_intent_text">"प्रतिमा निवडक"</string>
+    <string name="language_already_selected">"भाषा आधीच निवडली आहे!"</string>
+    <string name="tenant_name_error">"भाडेकरुचे नाव आवश्यक आहे"</string>
+    <string name="visitor_entry_successfull">"अभ्यागत प्रवेश जतन केला"</string>
+    <string name="enteryourusername">"आपल्या वापरकर्त्याचे नाव प्रविष्ट करा"</string>
+    <string name="usernameisrequired">"वापरकर्ता नाव आवश्यक आहे"</string>
+    <string name="remove">"काढा"</string>
+    <string name="btnBypass">"बायपास"</string>
+    <string name="error_email">"अवैध ईमेल आयडी"</string>
+    <string name="error_email_required">"ईमेल आयडी आवश्यक"</string>
+    <string name="error_isd_invalid">"अवैध आयएसडी"</string>
+    <string name="error_mobile">"अवैध मोबाईल नंबर"</string>
+    <string name="hint_visitorEmail">"आगंतुक ईमेल आयडी प्रविष्ट करा"</string>
+    <string name="select">"निवडा"</string>
+    <string name="logging">"लॉग इन"</string>
+    <string name="please_wait">"कृपया थांबा"</string>
+    <string name="you_dont_have_appointment_today">"आज आपल्याकडे कोणतीही नियोजित भेट नाही"</string>
+    <string name="logged_out_successfully">"लॉग आउट यशस्वीरित्या संपला"</string>
+    <string name="not_reception_login">"आपल्याला लॉगिन करण्याची परवानगी नाही"</string>
+    <string name="fetching_data">"डेटा आणत आहे"</string>
+    <string name="registering">"नोंदणी करीत आहे"</string>
+    <string name="uploadingImage">"प्रतिमा अपलोड करणे"</string>
+    <string name="forgot">"पासवर्ड विसरलात?"</string>
+    <string name="technical_error">"तांत्रिक त्रुटी आली. कृपया पुन्हा प्रयत्न करा"</string>
+    <string name="walkin_approval_true">"भेटण्यासाठी दुसरी व्यक्ती जोडू शकत नाही"</string>
+    <string name="change_password">"कृपया पासवर्ड बदला"</string>
+    <string name="logging_out">"लॉगिंग आउट"</string>
+    <string name="printing_pass">"प्रिंटिंग पास"</string>
+    <string name="visitor_name_required">"अभ्यागत नाव आवश्यक आहे"</string>
+    <string name="error_questions">"कृपया आवश्यक फील्ड भरा"</string>
+    <string name="invalid_email">"अवैध ईमेल आयडी"</string>
+    <string name="two_digits_required">"किमान 2 अंक आवश्यक"</string>
+    <string name="six_digits_reuquired">"किमान 6 अंक आवश्यक"</string>
+    <string name="ten_digits_required">"किमान 10 अंक आवश्यक"</string>
+    <string name="twelve_digits_required">"किमान 12 अंकांची आवश्यकता आहे"</string>
+    <string name="error_isd_required">"ISD कोड आवश्यक आहे"</string>
+    <string name="mobileInValid">"अवैध मोबाईल नंबर"</string>
+    <string name="appointmentImage">"नेमणूक फोटो"</string>
+    <string name="reset">रीसेट करा</string>
+    <string name="no_preappointment_found">पूर्वमाहिती डेटा सापडला नाही</string>
+    <string name="purpose_of_data_not_found">भेट डेटाचा हेतू अवास्तव्य नाही</string>
+    <string name="reception">रिसेप्शन</string>
+    <string name="selfhelp_kiosk">स्वयं-मदत किओस्क</string>
+    <string name="emailAlreadyRegister">त्याच ईमेल आयडीसह अभ्यागत आधीपासूनच जोडलेला आहे</string>
+    <string name="visitor_name_mobile_email_access_card_no">अभ्यागत नाव / मोबाइल / ईमेल / प्रवेश कार्ड क्रमांक</string>
+    <string name="no_data_found">माहिती आढळली नाही...</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="print_pass">प्रिंट पास</string>
+    <string name="confirmLogout">लॉगआउटची पुष्टी करायची?</string>
+    <string name="yes">हो</string>
+    <string name="no">नाही</string>
+    <string name="child_pickup_detail_saved">Child Pickup Details Saved</string>
+    <string name="contractor_entry">Contarctor Entry</string>
+
+</resources>

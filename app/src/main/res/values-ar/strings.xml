@@ -1,0 +1,258 @@
+<resources>
+
+<!--
+    <string name="app_name">"Vams الزائر التجاري"</string>
+-->
+
+    <string name="app_name">VAMS</string>
+
+
+    <string name="language_spinner_title">"اختار اللغة"</string>
+
+    <string name="welcome">"أهلا بك!"</string>
+
+    <string name="hint_email">"اسم المستخدم"</string>
+
+    <string name="hint_password">"كلمه السر"</string>
+
+    <string name="no_internet_msg">"الرجاء التحقق من اتصال الانترنت الخاص بك"</string>
+
+    <string name="btn_login">"تسجيل الدخول"</string>
+
+    <string name="powered_by">"مشغل بواسطة"</string>
+
+    <string name="version">"الإصدار 2.0"</string>
+
+    <string name="confirmAppointment">"هل لديك موعد مؤكد؟"</string>
+
+    <string name="hint_scanidcard">"مسح بطاقة الهوية"</string>
+
+    <string name="OR">"أو"</string>
+
+    <string name="hint_visitormobile">"أدخل الزائر رقم الجوال"</string>
+
+    <string name="btn_next">"التالى"</string>
+
+    <string name="contract">"عامل عقد"</string>
+
+    <string name="visitorentry">"دخول الزوار"</string>
+
+    <string name="visitorlogout">"سجل الزوار"</string>
+
+    <string name="scanner">"الماسح الضوئي"</string>
+
+    <string name="hint_complexname">"اسم المجمع"</string>
+
+    <string name="hint_tenantName">"اسم المستأجر"</string>
+
+    <string name="hint_buildingName">"اسم المبنى"</string>
+
+    <string name="entervisitormobile">"أدخل زائر زائر جوال"</string>
+
+    <string name="entervisitoremail">"أدخل زائر البريد الإلكتروني"</string>
+
+    <string name="hint_mobileNo">"رقم المحمول"</string>
+
+    <string name="scanidcard">"SCAN ID CARD"</string>
+
+    <string name="bypass">"الالتفافية"</string>
+
+    <string name="submit">"خضع"</string>
+
+    <string name="idProof">"إثبات الهوية"</string>
+
+    <string name="firstimage">"الصورة الأولى"</string>
+
+    <string name="lastimage">"الصورة الأخيرة"</string>
+
+    <string name="captureid">"CAPTURE ID PROOF"</string>
+
+    <string name="visitorName">"اسم الزائر"</string>
+
+    <string name="company">"شركة الزائر"</string>
+
+    <string name="emailId">"معرف البريد الإلكتروني للزائر"</string>
+
+    <string name="contact">"رقم الاتصال"</string>
+
+    <string name="typeofvisitor">"نوع الزائر"</string>
+
+    <string name="persontomeet">"شخص لقاء"</string>
+
+    <string name="purposeofvisit">"غرض الزيارة"</string>
+
+    <string name="official">"الرسمية"</string>
+
+    <string name="personal">"الشخصية"</string>
+
+    <string name="accesscardno">"بطاقة الوصول"</string>
+
+    <string name="Selectid">"حدد نوع المعرف"</string>
+
+    <string name="cardno">"رقم البطاقة"</string>
+
+    <string name="vehicleno">"عدد المركبات"</string>
+
+    <string name="nationalIdNo">"رقم الهوية الوطني"</string>
+
+    <string name="mrzNo">"MRZ لا"</string>
+
+    <string name="gender">"جنس"</string>
+
+    <string name="male">"الذكر"</string>
+
+    <string name="female">"إناثا"</string>
+
+    <string name="nationality">"جنسية"</string>
+
+    <string name="dateofbirth">"تاريخ الولادة"</string>
+
+    <string name="dateofexpiry">"تاريخ الانتهاء"</string>
+
+    <string name="personalremark">"ملاحظات شخصية"</string>
+
+    <string name="authenticatioKey">"مصادقة المفاتيح"</string>
+
+    <string name="resendotp">"إعادة إرسال مفتاح"</string>
+
+    <string name="username">"اسم المستخدم"</string>
+
+    <string name="confirm">"تؤكد"</string>
+
+    <string name="enterPassword">"كلمه السر"</string>
+
+    <string name="cancel">"إلغاء"</string>
+
+    <string name="error_login">"بريد إلكتروني خاطئ"</string>
+
+    <string name="errorMessageLoginId">"اسم المستخدم مطلوب"</string>
+
+    <string name="errorMessageLoginIdOne">"يجب أن يكون اسم المستخدم أكبر من 6 أرقام"</string>
+
+    <string name="loginId">"Rahulkadge12@gmail.com"</string>
+
+    <string name="password">"1AB @ را"</string>
+
+    <string name="error_password">"رمز مرور خاطئ"</string>
+
+    <string name="emailRequired">"معرف تسجيل الدخول مطلوب"</string>
+
+    <string name="passwordRequired">"كلمة المرور مطلوبة"</string>
+
+    <string name="invalidPassword">"رمز مرور خاطئ"</string>
+
+    <string name="mobileRequired">"الجوال لا مطلوب"</string>
+
+    <string name="invalidMobile">"رقم الهاتف المحمول غير صالح"</string>
+    <string name="hint_emailaddress">"البريد الإلكتروني"</string>
+    <string name="visitorMobile">"الزائر رقم الجوال"</string>
+    <string name="visitor_email">"البريد الإلكتروني للزائر"</string>
+    <string name="idphototype">"معرف نوع دليل"</string>
+    <string name="idproofNo">"معرف إثبات لا"</string>
+    <string name="remarks">"ملاحظات"</string>
+    <string name="vehiclenoregistrationNo">"رقم السيارة"</string>
+    <string name="noOfVisitor">"عدد الزوار"</string>
+    <string name="are_you_carry_hardware">"هل تحمل أي جهاز؟"</string>
+    <string name="camera">"الة تصوير"</string>
+    <string name="label_spinner_promt">"EN"</string>
+    <string name="forgot">"هل نسيت كلمة المرور؟"</string>
+    <string name="mobileno">"رقم المحمول."</string>
+    <string name="isd">"919"</string>
+    <string name="mobileNOhint">"9987595805"</string>
+    <string name="email">"البريد الإلكتروني"</string>
+    <string name="name">"اسم"</string>
+    <string name="companyAdditionvisitor">"شركة"</string>
+    <string name="stayandmore">"&lt;! [CDATA [STAY &amp; ADD MORE"</string>
+    <string name="takePhoto">"تصوير"</string>
+    <string name="emailAddress">"darshil@gmail.com"</string>
+    <string name="balzonion">"Blazonion"</string>
+    <string name="remarksHint">"أدخل"</string>
+    <string name="NameHint">"دارشلي كارلا شاه"</string>
+    <string name="taptoScan">"(انقر للمسح)"</string>
+    <string name="take_photo">"تصوير"</string>
+    <string name="registerImage">"تسجيل الصور"</string>
+    <string name="visitorcomplexName">"اسم المجمع"</string>
+    <string name="answer">"إجابة"</string>
+    <string name="loginId_error">"اسم المستخدم مطلوب"</string>
+    <string name="password_error">"كلمة المرور مطلوبة"</string>
+    <string name="visitorbuildingName">"اسم المبنى"</string>
+    <string name="visitortenantName">"اسم المستأجر"</string>
+    <string name="authentication_error">"مفتاح Authenticarion مطلوب"</string>
+    <string name="btn_text_multi_visitor">"رأي"</string>
+    <string name="btn_text_add">"أضف"</string>
+    <string name="error_login_id_required">"اسم المستخدم مطلوب"</string>
+    <string name="error_password_required">"كلمة المرور مطلوبة"</string>
+    <string name="error_key_required">"مفتاح المصادقة المطلوبة"</string>
+    <string name="error_visitor_name">"اسم الزائر مطلوب"</string>
+    <string name="error_person_to_meet">"مطلوب شخص يجتمع"</string>
+    <string name="error_tanent_name">"اسم Tanent مطلوب"</string>
+    <string name="mobileAlreadyRegister">"الزائر بنفس رقم الهاتف المحمول مضاف بالفعل"</string>
+    <string name="usernameDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ابتثجحخدذرزسشصضطظعغفقكلمنهوی -_ #"</string>
+    <string name="tenantDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ابتثجحخدذرزسشصضطظعغفقكلمنهوی۹۸۷۶۵۴٣٢١٠ (،). - '# / \\"</string>
+    <string name="emailDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ابتثجحخدذرزسشصضطظعغفقكلمنهوی۹۸۷۶۵۴٣٢١٠ @.-_"</string>
+    <string name="companyDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ابتثجحخدذرزسشصضطظعغفقكلمنهوی۹۸۷۶۵۴٣٢١٠ &amp; (،.) - '#"</string>
+    <string name="visitorNameDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ابتثجحخدذرزسشصضطظعغفقكلمنهوی \" '\""</string>
+    <string name="vehicleRegDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ابتثجحخدذرزسشصضطظعغفقكلمنهوی۹۸۷۶۵۴٣٢١٠-_"</string>
+    <string name="accessCardDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ابتثجحخدذرزسشصضطظعغفقكلمنهوی۹۸۷۶۵۴٣٢١٠ &amp; # / \\ (.-_)"</string>
+    <string name="questionsDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzابتثجحخدذرزسشصضطظعغفقكلمنهوی۹۸۷۶۵۴٣٢١٠0123456789 '# / \\ (.-_)"</string>
+    <string name="visitor_name_digits">" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzابتثجحخدذرزسشصضطظعغفقكلمنهوی \""</string>
+
+    <string name="aadharcardvalidationerror">"بطاقة Aadhar لا يجب أن تكون 12 رقما"</string>
+    <string name="pancarderror">"يجب ألا تكون كل بطاقة البان 10 أرقام"</string>
+    <string name="mintwoDigit">"الحد الأدنى من الأرقام المطلوبة"</string>
+    <string name="canceldialog">"إلغاء"</string>
+    <string name="pick_image_intent_text">"منتقي الصور"</string>
+    <string name="language_already_selected">"اللغة محددة بالفعل!"</string>
+    <string name="tenant_name_error">"مطلوب اسم المستأجر"</string>
+    <string name="visitor_entry_successfull">"تم إدخال الزوار بنجاح"</string>
+    <string name="enteryourusername">"أدخل اسم المستخدم الخاص بك"</string>
+    <string name="usernameisrequired">"اسم المستخدم مطلوب"</string>
+    <string name="remove">"إزالة"</string>
+    <string name="btnBypass">"الالتفافية"</string>
+    <string name="error_email">"معرف البريد الإلكتروني غير صالح"</string>
+    <string name="error_email_required">"معرف البريد الإلكتروني مطلوب"</string>
+    <string name="error_isd_invalid">"ISD غير صالح"</string>
+    <string name="error_mobile">"رقم الجوال غير صالح"</string>
+    <string name="hint_visitorEmail">"أدخل معرف البريد الإلكتروني للزائر"</string>
+    <string name="select">"تحديد"</string>
+    <string name="logging">"تسجيل الدخول"</string>
+    <string name="please_wait">"أرجو الإنتظار"</string>
+    <string name="you_dont_have_appointment_today">"ليس لديك أي موعد اليوم"</string>
+    <string name="logged_out_successfully">"تم تسجيل الخروج بنجاح"</string>
+    <string name="not_reception_login">"غير مسموح لك بتسجيل الدخول"</string>
+    <string name="fetching_data">"جلب البيانات"</string>
+    <string name="logging_out">"تسجيل الخروج"</string>
+    <string name="registering">"تسجيل"</string>
+    <string name="uploadingImage">"تحميل الصور"</string>
+    <string name="technical_error">خطأ فني حدث. الرجاء معاودة المحاولة في وقت لاحق</string>
+    <string name="mobileInValid">Invalid Mobile Number</string>
+    <string name="appointmentImage">Appointment Photo</string>
+    <string name="walkin_approval_true">لا يمكن إضافة شخص آخر للقاء.</string>
+    <string name="change_password">يرجى تغيير كلمة المرور</string>
+    <string name="printing_pass">ممر الطباعة</string>
+    <string name="visitor_name_required">اسم الزائر مطلوب</string>
+    <string name="error_questions">يرجى ملء الحقول الإلزامية</string>
+    <string name="invalid_email">معرف البريد الإلكتروني غير صالح</string>
+    <string name="two_digits_required">الحد الأدنى 2 أرقام المطلوبة</string>
+    <string name="six_digits_reuquired">"الحد الأدنى 6 أرقام المطلوبة "</string>
+    <string name="ten_digits_required">الحد الأدنى 10 أرقام المطلوبة</string>
+    <string name="twelve_digits_required">الحد الأدنى 12 أرقام المطلوبة</string>
+    <string name="error_isd_required">كود Isd مطلوب</string>
+    <string name="no_preappointment_found">لا توجد بيانات Pabappointment</string>
+    <string name="purpose_of_data_not_found">الغرض من بيانات الزيارة ليس Avalibale</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="selfhelp_kiosk">كشك المساعدة الذاتية</string>
+    <string name="reception">استقبال</string>
+    <string name="emailAlreadyRegister">زائر مع نفس معرف البريد الإلكتروني هو بالفعل مضاف</string>
+    <string name="visitor_name_mobile_email_access_card_no">اسم الزائر / الجوال / البريد الإلكتروني / بطاقة الوصول رقم</string>
+    <string name="no_data_found">لاتوجد بيانات...</string>
+    <string name="logout">الخروج</string>
+    <string name="print_pass">ممر الطباعة</string>
+    <string name="confirmLogout">تأكيد تسجيل الخروج؟</string>
+    <string name="yes">نعم فعل</string>
+    <string name="no">لا</string>
+    <string name="child_pickup_detail_saved">Child Pickup Details Saved</string>
+    <string name="contractor_entry">Contarctor Entry</string>
+
+
+</resources>

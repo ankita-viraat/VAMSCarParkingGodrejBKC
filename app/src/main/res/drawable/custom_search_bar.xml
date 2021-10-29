@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:drawable="@drawable/search_bar_edittext"/>
+
+            <item>
+                <bitmap android:gravity="center|left"
+                    android:src="@drawable/magnify"/>
+
+            </item>
+
+        </layer-list>
+
+    </item>
+</selector>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_confirmationDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="50dp"
+                        android:singleLine="false"
+                        android:text="@string/username"
+                        android:textAppearance="@style/customMontserratLight"
+                        android:textColor="@color/username_color"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/etLoginId_confirmId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="@dimen/dim_10"
+                        android:background="@null"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:nextFocusDown="@id/etPassword_confirmPassword"
+                        android:maxLength="@integer/email_max_length"
+                        android:paddingBottom="@dimen/dim_16"
+                        android:paddingRight="@dimen/dim_16"
+                        android:hint="@string/username"
+                        android:digits="@string/usernameDigits"
+                        android:paddingTop="16dp"
+                        android:singleLine="true"
+                        android:textAppearance="@style/customMontserratLight"
+                        android:textColor="@color/username_color"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/view_border_height"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/border_color"
+                        android:paddingTop="5dp"></View>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:singleLine="false"
+                        android:text="@string/enterPassword"
+                        android:textAppearance="@style/customMontserratLight"
+                        android:textColor="@color/username_color"
+                        android:textSize="20sp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/etPassword_confirmPassword"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="@integer/weightsum_1"
+                            android:background="@null"
+                            android:imeOptions="actionGo"
+                            android:inputType="textPassword"
+                            android:maxLength="@integer/password_max_length"
+                            android:hint="@string/hint_password"
+                            android:paddingBottom="@dimen/dim_16"
+                            android:paddingTop="@dimen/dim_16"
+                            android:paddingRight="@dimen/dim_16"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratLight"
+                            android:textColor="#000000"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/ivShowPassword"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:padding="@dimen/dim_16"
+                            android:tint="@color/colorAccent"
+                            android:src="@drawable/visibility_off"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/view_border_height"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/border_color"
+                        android:paddingTop="5dp"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        android:layout_marginTop="25dp">
+
+                        <Button
+                            android:id="@+id/btnConfirm_loginConfirmActivity"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/orange"
+                            android:text="@string/confirm"
+                            android:textAllCaps="true"
+                            android:textSize="16.52sp"
+                            android:textAppearance="@style/customMontserratSemiBold"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/btnCancel_loginConfirmActivity"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/blueColor"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/cancel"
+                            android:textAllCaps="true"
+                            android:textSize="16.52sp"
+                            android:textAppearance="@style/customMontserratSemiBold"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

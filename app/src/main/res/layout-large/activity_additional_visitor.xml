@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_AdditionVisitorActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.vams.zktecoedu.reception.Activity.AdditionalVisitorActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_additionalVisitorsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_additionalVisitors"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="@dimen/abc_action_bar_default_height_material">
+
+            <ImageView
+                android:id="@+id/iv_addational_visitor_cancel"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:src="@drawable/cancel" />
+            <ImageView
+                android:id="@+id/ivSos"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_gravity="right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_sos" />
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_additionalVisitorsToolbar"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ll_additionaltakenPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/ivAdditionalVisitorProfPic"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:padding="@dimen/dim_16"
+                            android:src="@drawable/capture_with_blue_background" />
+                        <!--<ImageView
+                            android:id="@+id/iv_camera"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:src="@drawable/capture"
+                            android:layout_gravity="top|right"
+                            />-->
+                        <TextView
+                            android:id="@+id/tvAdditional_takenPhoto"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/live_picture"
+                            android:textAlignment="center"
+                            android:textColor="@color/blueColor"
+                            android:textSize="20sp"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_additionalregisterImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/ivRegistered_additional"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center"
+                            android:padding="@dimen/dim_16"
+                            android:src="@drawable/capture_with_blue_background" />
+
+                        <TextView
+                            android:id="@+id/tv_Additional_Registered_Image"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/saved_picture"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/blueColor"
+                            android:textSize="20sp"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_AdditionalVisitorMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_16"
+                        android:orientation="horizontal"
+                        android:weightSum="@integer/weightsum_10">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/cell_number"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <LinearLayout
+                            android:id="@+id/llAdditionalFlagIsd"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="2.5"
+                            android:background="@drawable/edittext_focude_effect_for_isd"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="1">
+
+
+                            <ImageView
+                                android:id="@+id/ivAdditionalVisitorIsdFlag"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.5"
+                                app:srcCompat="@drawable/ic_india" />
+
+
+                            <AutoCompleteTextView
+                                android:id="@+id/et_IsdAddtionalVisitor"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.5"
+                                android:background="@null"
+                                android:inputType="phone"
+                                android:maxLength="@integer/isdMaxLength"
+                                android:nextFocusDown="@id/et_mobileAddtionalVisitor"
+                                android:text="+91"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/customMontserratRegular"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+
+                        <EditText
+                            android:id="@+id/et_mobileAddtionalVisitor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="1dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/edittext_bg_default"
+                            android:inputType="phone"
+                            android:maxLength="@integer/mobile_max_length"
+                            android:nextFocusDown="@id/et_emailAdditionalVisitor"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tvMobileNoStarAdditional"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_weight="0.5"
+                            android:text="*"
+                            android:textAlignment="center"
+                            android:textColor="@color/blueColor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_AdditionalVisitorEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_16"
+                        android:orientation="horizontal"
+                        android:weightSum="@integer/weightsum_10">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/emaill"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_emailAdditionalVisitor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5.5"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/emailDigits"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:maxLength="@integer/email_length"
+                            android:nextFocusDown="@id/et_NameAdditionalVisitor"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tvEmailStarAdditional"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_weight="0.5"
+                            android:text="*"
+                            android:textAlignment="center"
+                            android:textColor="@color/blueColor"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_16"
+                        android:orientation="horizontal"
+                        android:weightSum="@integer/weightsum_10">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/first_name"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_NameAdditionalVisitor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="5.5"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/visitor_name_digits"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLength="@integer/visitorName"
+                            android:nextFocusDown="@id/et_LastNameAdditionalVisitor"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_weight="0.5"
+                            android:text="*"
+                            android:textAlignment="center"
+                            android:textColor="@color/blueColor"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_16"
+                        android:orientation="horizontal"
+                        android:weightSum="@integer/weightsum_10">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/last_name"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/et_LastNameAdditionalVisitor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="5.5"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/visitor_name_digits"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLength="@integer/visitorName"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_weight="0.5"
+                            android:text="*"
+                            android:textAlignment="center"
+                            android:textColor="@color/blueColor"
+                            android:textSize="20sp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+
+                    <!--start of Additional fields -->
+
+                    <!--End of additional fields -->
+
+                    <LinearLayout
+                        android:id="@+id/llAddQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:weightSum="@integer/weightsum_10">
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_questionsAdditionalVisitor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="9.5" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_AdditionalAuthentication"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_8"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:id="@+id/ll_AdditionalAuthenticateKey"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dim_16"
+                            android:orientation="horizontal"
+                            android:weightSum="10">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:paddingBottom="@dimen/dim_16"
+                                android:text="Authentication Key"
+                                android:textAppearance="@style/customMontserratRegular"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/etAdditionalAuthenticationKey"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5.5"
+                                android:background="@drawable/edittext_focude_effect"
+                                android:ems="10"
+                                android:inputType="number"
+                                android:maxLength="@integer/otpLength"
+                                android:text=""
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="*"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llByPassAndReSend"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_16"
+                        android:orientation="horizontal"
+                        android:visibility="visible"
+                        android:weightSum="@integer/weightsum_10">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:orientation="horizontal" />
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_weight="5.5"
+                            android:orientation="horizontal"
+                            android:weightSum="10">
+
+                            <Button
+                                android:id="@+id/btnAdditionalBypass"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="5"
+                                android:background="@color/custom_green"
+                                android:text="Bypass"
+                                android:visibility="visible"
+                                android:textColor="@color/white"
+                                android:textSize="18sp" />
+
+                            <Button
+                                android:id="@+id/btnAdditionalResendKey"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="5"
+                                android:background="@color/custom_green"
+                                android:text="@string/resendotp"
+                                android:visibility="visible"
+                                android:textColor="@color/white"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_16"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <Button
+                            android:id="@+id/btn_AddDetails"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/dim_10"
+                            android:layout_weight="5"
+                            android:background="@color/blueColor"
+                            android:gravity="center"
+                            android:text="@string/additional_details"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/customMontserratBold"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btn_ScanDL"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:layout_weight="4.5"
+                            android:background="@color/blueColor"
+                            android:gravity="center"
+                            android:text="@string/scan_dl"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/customMontserratBold"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llAdditionalReAuth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_16"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/btnAdditionalReAuthenticate"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@color/colorAccent"
+                            android:text="@string/re_authenticate"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/customMontserratBold"
+                            android:textColor="@color/logintxtColor"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="horizontal"
+                        android:weightSum="@integer/weightsum_10">
+
+                        <CheckBox
+                            android:id="@+id/cb_addMore"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:text="@string/stayandmore"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textSize="20sp" />
+
+                        <Button
+                            android:id="@+id/btnadditionalVisitorConfirm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dim_10"
+                            android:layout_weight="3.5"
+                            android:background="@color/orange"
+                            android:text="@string/confirm"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvSexualOffendMatch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dim_10"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="center"
+                        android:text="@string/sexual_offender_match_found"
+                        android:textAppearance="@style/customMontserratLight"
+                        android:textColor="@color/errorcolor"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

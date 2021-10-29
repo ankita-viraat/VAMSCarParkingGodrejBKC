@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="email_max_length">50</integer>
+    <integer name="password_max_length">20</integer>
+    <integer name="weightsum_2">10</integer>
+    <integer name="weightsum_10">10</integer>
+    <integer name="weightsum_3">3</integer>
+    <integer name="weightsum_7">7</integer>
+    <integer name="authentication_key_length">1</integer>
+    <integer name="weightsum_1">1</integer>
+    <integer name="mobile_max_length">13</integer>
+    <integer name="isdMaxLength">4</integer>
+    <integer name="int_225">225</integer>
+    <integer name="visitorName">50</integer>
+    <integer name="email_length">150</integer>
+    <integer name="persontomeetlength">100</integer>
+    <integer name="vehicleMaxlength">20</integer>
+    <integer name="accessCardNoMaxlength">20</integer>
+    <integer name="otpLength">4</integer>
+
+</resources>

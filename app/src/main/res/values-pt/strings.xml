@@ -1,0 +1,256 @@
+<resources>
+
+<!--
+    <string name="app_name">"Visitante comercial de Vams"</string>
+-->
+    <string name="app_name">VAMS</string>
+
+    <string name="language_spinner_title">"Selecione o idioma"</string>
+
+    <string name="welcome">"BEM VINDA!"</string>
+
+    <string name="hint_email">"Nome de usuário"</string>
+
+    <string name="hint_password">"Senha"</string>
+
+    <string name="no_internet_msg">"Por favor, verifique sua conexão à internet"</string>
+
+    <string name="btn_login">"Entrar"</string>
+
+    <string name="powered_by">"Distribuído por"</string>
+
+    <string name="version">"v 2.0"</string>
+
+    <string name="confirmAppointment">"TER UMA NOMEAÇÃO CONFIRMADA?"</string>
+
+    <string name="hint_scanidcard">"Cartão de identificação de digitalização"</string>
+
+    <string name="OR">"OU"</string>
+
+    <string name="hint_visitormobile">"Insira o visitante no celular"</string>
+
+    <string name="btn_next">"Próximo"</string>
+
+    <string name="contract">"Trabalhador de contrato"</string>
+
+    <string name="visitorentry">"Entrada de Visitante"</string>
+
+    <string name="visitorlogout">"Logout de visitante"</string>
+
+    <string name="scanner">"Scanner"</string>
+
+    <string name="hint_complexname">"Nome Complexo"</string>
+
+    <string name="hint_tenantName">"Nome do inquilino"</string>
+
+    <string name="hint_buildingName">"nome do edifício"</string>
+
+    <string name="entervisitormobile">"ENTRE NO VISITANTE MOBILE NO"</string>
+
+    <string name="entervisitoremail">"ENTRE EMAIL DO VISITANTE"</string>
+
+    <string name="hint_mobileNo">"Celular Não"</string>
+
+    <string name="scanidcard">"CARTÃO DE IDENTIFICAÇÃO"</string>
+
+    <string name="bypass">"Ignorar"</string>
+
+    <string name="submit">"Enviar"</string>
+
+    <string name="idProof">"Prova de identificação"</string>
+
+    <string name="firstimage">"Primeira imagem"</string>
+
+    <string name="lastimage">"Última imagem"</string>
+
+    <string name="captureid">"CAPTURE ID PROOF"</string>
+
+    <string name="visitorName">"Nome do visitante"</string>
+
+    <string name="company">"Empresa Visitante"</string>
+
+    <string name="emailId">"ID do email do visitante"</string>
+
+    <string name="contact">"Contato Não"</string>
+
+    <string name="typeofvisitor">"Tipo de visitante"</string>
+
+    <string name="persontomeet">"Pessoa para conhecer"</string>
+
+    <string name="purposeofvisit">"Propósito da visita"</string>
+
+    <string name="official">"Oficial"</string>
+
+    <string name="personal">"Pessoal"</string>
+
+    <string name="accesscardno">"Cartão de Acesso Não"</string>
+
+    <string name="Selectid">"Selecione o tipo de ID"</string>
+
+    <string name="cardno">"Número do cartão"</string>
+
+    <string name="vehicleno">"Número do veículo"</string>
+
+    <string name="nationalIdNo">"numero de identidade nacional"</string>
+
+    <string name="mrzNo">"MRZ Não"</string>
+
+    <string name="gender">"Gênero"</string>
+
+    <string name="male">"Masculino"</string>
+
+    <string name="female">"Fêmea"</string>
+
+    <string name="nationality">"Nacionalidade"</string>
+
+    <string name="dateofbirth">"Data de nascimento"</string>
+
+    <string name="dateofexpiry">"data de validade"</string>
+
+    <string name="personalremark">"Observações Pessoais"</string>
+
+    <string name="authenticatioKey">"chave de autenticação"</string>
+
+    <string name="resendotp">"Reenviar chave"</string>
+
+    <string name="username">"Nome de usuário"</string>
+
+    <string name="confirm">"confirme"</string>
+
+    <string name="enterPassword">"Senha"</string>
+
+    <string name="cancel">"Cancelar"</string>
+
+    <string name="error_login">"E-mail inválido"</string>
+
+    <string name="errorMessageLoginId">"Nome de usuário é requerido"</string>
+
+    <string name="errorMessageLoginIdOne">"O nome de usuário deve ter mais de 6 dígitos"</string>
+
+    <string name="loginId">"Rahulkadge12@gmail.com"</string>
+
+    <string name="password">"1Ab @ ra"</string>
+
+    <string name="error_password">"Senha inválida"</string>
+
+    <string name="emailRequired">"ID de login necessário"</string>
+
+    <string name="passwordRequired">"Senha requerida"</string>
+
+    <string name="invalidPassword">"Senha inválida"</string>
+
+    <string name="mobileRequired">"Mobile no required"</string>
+
+    <string name="invalidMobile">"Celular inválido não"</string>
+    <string name="hint_emailaddress">"O email"</string>
+    <string name="visitorMobile">"Visitante de celular não."</string>
+    <string name="visitor_email">"E-mail do visitante"</string>
+    <string name="idphototype">"Tipo de prova de identificação"</string>
+    <string name="idproofNo">"Id prova não"</string>
+    <string name="remarks">"Observações"</string>
+    <string name="vehiclenoregistrationNo">"Reg Reg no veículo"</string>
+    <string name="noOfVisitor">"Não de visitantes"</string>
+    <string name="are_you_carry_hardware">"Você está carregando algum hardware?"</string>
+    <string name="camera">"Câmera"</string>
+    <string name="label_spinner_promt">"EN"</string>
+    <string name="forgot">"Esqueceu a senha?"</string>
+    <string name="mobileno">"Celular Não."</string>
+    <string name="isd">"919"</string>
+    <string name="mobileNOhint">"9987595805"</string>
+    <string name="email">"O email"</string>
+    <string name="name">"Nome"</string>
+    <string name="companyAdditionvisitor">"Empresa"</string>
+    <string name="stayandmore">"&lt;! [CDATA [STAY &amp; ADD MORE"</string>
+    <string name="takePhoto">"Tirar fotos"</string>
+    <string name="emailAddress">"darshil@gmail.com"</string>
+    <string name="balzonion">"Brasão"</string>
+    <string name="remarksHint">"Entrar"</string>
+    <string name="NameHint">"Darshil Karla Shah"</string>
+    <string name="taptoScan">"(Toque para digitalizar)"</string>
+    <string name="take_photo">"Tirar fotos"</string>
+    <string name="registerImage">"Cadastre-se Foto"</string>
+    <string name="visitorcomplexName">"Nome Complexo"</string>
+    <string name="answer">"Responda"</string>
+    <string name="loginId_error">"Nome de usuário é requerido"</string>
+    <string name="password_error">"Senha requerida"</string>
+    <string name="visitorbuildingName">"nome do edifício"</string>
+    <string name="visitortenantName">"Nome do inquilino"</string>
+    <string name="authentication_error">"A chave do Authenticarion é necessária"</string>
+    <string name="btn_text_multi_visitor">"Visão"</string>
+    <string name="btn_text_add">"ADICIONAR"</string>
+    <string name="error_login_id_required">"Nome de usuário é requerido"</string>
+    <string name="error_password_required">"Senha requerida"</string>
+    <string name="error_key_required">"Chave de autenticação necessária"</string>
+    <string name="error_visitor_name">"Nome do visitante obrigatório"</string>
+    <string name="error_person_to_meet">"A pessoa para conhecer é requerida"</string>
+    <string name="error_tanent_name">"Nome do Tanent requerido"</string>
+    <string name="mobileAlreadyRegister">"O visitante com o mesmo número de celular já está adicionado"</string>
+    <string name="usernameDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê -_. #"</string>
+    <string name="tenantDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê &amp; (,.) - '# / \\"</string>
+    <string name="emailDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê @.-_"</string>
+    <string name="companyDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê &amp; (,.) - '#"</string>
+    <string name="visitorNameDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê \"'\""</string>
+    <string name="vehicleRegDigits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê-_"</string>
+    <string name="accessCardDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê &amp; # / \\ (,.-_)"</string>
+    <string name="questionsDigits">"&lt;! [CDATA [ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê &amp; '# / \\ (,.-_)"</string>
+    <string name="visitor_name_digits">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzábêcêdêéefegêagáijotacapaeleemeeneópêquêerreessetêuvêdâblioxisípsilonzê \'"</string>
+
+    <string name="aadharcardvalidationerror">"Cartão de Aadhar não deve ser de 12 dígitos"</string>
+    <string name="pancarderror">"Cartão pan não deve ser 10 dígitos"</string>
+    <string name="mintwoDigit">"Mínimo 2 dígitos requeridos"</string>
+    <string name="canceldialog">"Cancelar"</string>
+    <string name="pick_image_intent_text">"Seletor de imagens"</string>
+    <string name="language_already_selected">"Idioma já selecionado!"</string>
+    <string name="tenant_name_error">"O nome do inquilino é obrigatório"</string>
+    <string name="visitor_entry_successfull">"Entrada de visitante salva com sucesso"</string>
+    <string name="enteryourusername">"ENTRE COM SEU NOME DE USUÁRIO"</string>
+    <string name="usernameisrequired">"Nome de usuário é requerido"</string>
+    <string name="remove">"Remover"</string>
+    <string name="btnBypass">"Ignorar"</string>
+    <string name="error_email">"ID de email inválido"</string>
+    <string name="error_email_required">"ID do email obrigatório"</string>
+    <string name="error_isd_invalid">"ISD inválido"</string>
+    <string name="error_mobile">"Número de celular inválido"</string>
+    <string name="hint_visitorEmail">"Insira o ID do email do visitante"</string>
+    <string name="select">"Selecione"</string>
+    <string name="logging">"Login"</string>
+    <string name="please_wait">"por favor, espere"</string>
+    <string name="you_dont_have_appointment_today">"Você não tem qualquer compromisso hoje"</string>
+    <string name="logged_out_successfully">"Logout com sucesso"</string>
+    <string name="not_reception_login">"Você não tem permissão para fazer o login"</string>
+    <string name="fetching_data">"Buscando dados"</string>
+    <string name="logging_out">"Sair"</string>
+    <string name="registering">"Registrando"</string>
+    <string name="uploadingImage">"Upload de Imagens"</string>
+    <string name="technical_error">Ocorreu um erro técnico. Por favor, tente novamente mais tarde</string>
+    <string name="mobileInValid">Invalid Mobile Number</string>
+    <string name="appointmentImage">Appointment Photo</string>
+    <string name="reset">Restabelecer</string>
+    <string name="purpose_of_data_not_found">O objetivo dos dados da visita não é Avalibale</string>
+    <string name="no_preappointment_found">"Nenhum dado de pré-compromisso encontrado "</string>
+    <string name="error_isd_required">Código ISD é necessário</string>
+    <string name="two_digits_required">Mínimo 2 dígitos necessários</string>
+    <string name="six_digits_reuquired">Mínimo 6 dígitos necessários</string>
+    <string name="ten_digits_required">Mínimo 10 dígitos necessários</string>
+    <string name="twelve_digits_required">Mínimo 12 dígitos necessários</string>
+    <string name="invalid_email">ID de email inválido</string>
+    <string name="error_questions">Por favor, preencha os campos obrigatórios</string>
+    <string name="visitor_name_required">Nome do visitante é obrigatório</string>
+    <string name="printing_pass">Passe de impressão</string>
+    <string name="change_password">Por favor, altere a senha</string>
+    <string name="walkin_approval_true">Não é possível adicionar outra pessoa para atender.</string>
+    <string name="selfhelp_kiosk">Quiosque de auto-ajuda</string>
+    <string name="reception">Recepção</string>
+    <string name="emailAlreadyRegister">Visitante com o mesmo ID de e-mail já está adicionado</string>
+    <string name="visitor_name_mobile_email_access_card_no">Nome do Visitante / Celular / E-mail / Cartão de Acesso Não</string>
+    <string name="no_data_found">Nenhum dado encontrado...</string>
+    <string name="logout">Sair</string>
+    <string name="print_pass">Passe de impressão</string>
+    <string name="confirmLogout">Confirme o logout?</string>
+    <string name="yes">sim</string>
+    <string name="no">नाही</string>
+    <string name="child_pickup_detail_saved">Child Pickup Details Saved</string>
+    <string name="contractor_entry">Contarctor Entry</string>
+
+
+</resources>

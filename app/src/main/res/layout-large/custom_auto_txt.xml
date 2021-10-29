@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:id="@+id/llMain">
+
+        <TextView
+            android:id="@+id/lbl_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="16dp"
+            android:text="Medium Text sdf sdfsdf sdf sdf sdf sdf sdf sdf sdf sdf sdf f sdfsdfsdfsdf sdf sdf sdf sdf "
+            android:textAppearance="@style/customMontserratRegular"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/viewHorizontal"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:layout_marginRight="@dimen/dim_16"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btncustomRemove"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:background="@color/custom_green"
+            android:text="@string/remove"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_below="@+id/llMain"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+</RelativeLayout>
