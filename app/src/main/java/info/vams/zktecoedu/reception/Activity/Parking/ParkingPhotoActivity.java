@@ -50,8 +50,9 @@ import info.vams.zktecoedu.reception.Util.Utilities;
 
 
 public class ParkingPhotoActivity extends BaseActivity implements Imageutils.ImageAttachmentListener {
+    private static final String TAG = "ParkingPhotoActivity";
     CircleImageView civCaptureimage;
-    ImageView imgvCapture1, imgvCapture2, imgvCapture3, ivBack,ivLogo_visitorEntryActivity;
+    ImageView imgvCapture1, imgvCapture2, imgvCapture3, imgvCapture4, imgvCapture5, imgvCapture6, ivBack,ivLogo_visitorEntryActivity;
     Context context;
     private Uri fileUri;
     private static int MEDIA_TYPE_IMAGE = 1;
@@ -67,6 +68,9 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
     final String IMAGE_1 = "image1";
     final String IMAGE_2 = "image2";
     final String IMAGE_3 = "image3";
+    final String IMAGE_4 = "image4";
+    final String IMAGE_5 = "image5";
+    final String IMAGE_6 = "image6";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +80,7 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
     }
 
     void init() {
+
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
@@ -87,6 +92,9 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
         imgvCapture1 = findViewById(R.id.imgvCapture1);
         imgvCapture2 = findViewById(R.id.imgvCapture2);
         imgvCapture3 = findViewById(R.id.imgvCapture3);
+        imgvCapture4 = findViewById(R.id.imgvCapture4);
+        imgvCapture5 = findViewById(R.id.imgvCapture5);
+        imgvCapture6 = findViewById(R.id.imgvCapture6);
         ivBack = findViewById(R.id.ivBack);
         btnCheckIn = findViewById(R.id.btnCheckIn);
         btnSkip = findViewById(R.id.btnSkip);
@@ -163,6 +171,27 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
             }
         });
 
+        imgvCapture4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                removeImage(IMAGE_4);
+            }
+        });
+
+        imgvCapture5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                removeImage(IMAGE_5);
+            }
+        });
+
+        imgvCapture6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                removeImage(IMAGE_6);
+            }
+        });
+
         civCaptureimage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -221,6 +250,18 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
                         imgvCapture3.setImageBitmap(null);
                         imgvCapture3.setBackgroundColor(getResources().getColor(R.color.white));
                     }
+                    else if (key == IMAGE_4) {
+                        imgvCapture4.setImageBitmap(null);
+                        imgvCapture4.setBackgroundColor(getResources().getColor(R.color.white));
+                    }
+                    else if (key == IMAGE_5) {
+                        imgvCapture5.setImageBitmap(null);
+                        imgvCapture5.setBackgroundColor(getResources().getColor(R.color.white));
+                    }
+                    else if (key == IMAGE_6) {
+                        imgvCapture6.setImageBitmap(null);
+                        imgvCapture6.setBackgroundColor(getResources().getColor(R.color.white));
+                    }
                     try {
                         if (new File(lstParkingUri.get(key).getPath()).delete()) {
 
@@ -247,7 +288,7 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
     }
 
     void captureImage() {
-        if (lstParkingUri.size() >= 3) {
+        if (lstParkingUri.size() >= 6) {
             Toast.makeText(ParkingPhotoActivity.this, "Max Image limit reached", Toast.LENGTH_LONG).show();
         } else {
             if (Utilities.getDevice().equalsIgnoreCase("samsung")) {
@@ -273,7 +314,6 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
             intent.putExtra("android.intent.extras.CAMERA_FACING", Camera.CameraInfo.CAMERA_FACING_BACK);
         }
         startActivityForResult(intent, PICK_IMAGE_ID);
-
     }
 
     public Uri getOutputMediaFileUri(int type) {
@@ -390,9 +430,25 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
                                 imgvCapture2.setBackgroundColor(getResources().getColor(R.color.white));
                                 lstParkingUri.put(IMAGE_2, uri);
                             } else if (lstParkingUri.size() == 2) {
+
                                 imgvCapture3.setImageBitmap(tempBitmap);
                                 imgvCapture3.setBackgroundColor(getResources().getColor(R.color.white));
                                 lstParkingUri.put(IMAGE_3, uri);
+                            }
+                            else if (lstParkingUri.size() == 3) {
+                                imgvCapture4.setImageBitmap(tempBitmap);
+                                imgvCapture4.setBackgroundColor(getResources().getColor(R.color.white));
+                                lstParkingUri.put(IMAGE_4, uri);
+                            }
+                            else if (lstParkingUri.size() == 4) {
+                                imgvCapture5.setImageBitmap(tempBitmap);
+                                imgvCapture5.setBackgroundColor(getResources().getColor(R.color.white));
+                                lstParkingUri.put(IMAGE_5, uri);
+                            }
+                            else if (lstParkingUri.size() == 5) {
+                                imgvCapture6.setImageBitmap(tempBitmap);
+                                imgvCapture6.setBackgroundColor(getResources().getColor(R.color.white));
+                                lstParkingUri.put(IMAGE_6, uri);
                             }
                         } catch (IOException e) {
                             e.printStackTrace();
@@ -442,6 +498,7 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
                     System.out.println("Key: " + me.getKey() + " & Value: " + me.getValue());
                     boolean isUploaded = FileTransferHelper.uploadParkingVisitorPhoto(context, parkCheckInResp.getParkingVisitorId()
                             , new File(lstParkingUri.get(me.getKey()).getPath()));
+
                     if (isUploaded) {
                         new File(lstParkingUri.get(me.getKey()).getPath()).delete();
                     }

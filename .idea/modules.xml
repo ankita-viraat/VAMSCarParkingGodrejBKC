@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ZKVAMS_EDU_Rec.iml" filepath="$PROJECT_DIR$/.idea/ZKVAMS_EDU_Rec.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ZKVAMS_EDU_Rec.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ZKVAMS_EDU_Rec.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barcode-reader/ZKVAMS_EDU_Rec.barcode-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/barcode-reader/ZKVAMS_EDU_Rec.barcode-reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Parking_Project.iml" filepath="$PROJECT_DIR$/.idea/modules/Parking_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Parking_Project.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Parking_Project.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barcode-reader/Parking_Project.barcode-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/barcode-reader/Parking_Project.barcode-reader.iml" />
     </modules>
   </component>
 </project>

@@ -22,6 +22,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -104,6 +105,8 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
     Context context;
     Profile profile;
     private boolean visible;
+    private RadioGroup radioGroup;
+    private String selectedParkedBy = "Employee";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -151,11 +154,30 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
         ivCheckOut = (ImageView) findViewById(R.id.ivCheckOut);
         btnSearch = findViewById(R.id.btnSearch);
         ivLogo_visitorEntryActivity = findViewById(R.id.ivLogo_visitorEntryActivity);
+        radioGroup = findViewById(R.id.radioGroup);
         Utilities.setUserLogo(this, ivLogo_visitorEntryActivity);
 
         actvVisitorEntryIsd.setText("+" + profile.getIsdCode());
         ivVisitorEntryIsdFlag.setImageResource(Utilities.setDrawableFlage("+" + profile.getIsdCode()));
 
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                switch (i){
+                    case R.id.rdEmployee:
+                        selectedParkedBy = "Employee";
+                        break;
+
+                    case R.id.rdDriver:
+                        selectedParkedBy = "Driver";
+                        break;
+
+                    case R.id.rdValet:
+                        selectedParkedBy = "Valet";
+                        break;
+                }
+            }
+        });
         btnSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -249,7 +271,7 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
                     if (isValid()) {
                         int typeOfId = masterResponse.getTypeOfVisitors().get(spnTypeOfVisitor.getSelectedItemPosition() - 1).getTypeOfVisitorId();
                         String typeOfVstr = masterResponse.getTypeOfVisitors().get(spnTypeOfVisitor.getSelectedItemPosition() - 1).getVisitorType();
-
+                        parkCheckInReq.setParkedBy(selectedParkedBy);
                         parkCheckInReq.setComplexId(profile.getComplexId());
                         parkCheckInReq.setCheckedInById(profile.getEmployeeId());
                         parkCheckInReq.setTenantId(selectedCompany.getTenantId());
@@ -258,7 +280,7 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
                         parkCheckInReq.setFirstName(etFirstName.getText().toString().trim());
                         parkCheckInReq.setLastName(etLastName.getText().toString().trim());
                         parkCheckInReq.setIsdCode(selectedcountyISD == null ? actvVisitorEntryIsd.getText().toString() : selectedcountyISD.getDialCode());
-                        parkCheckInReq.setMobile(etvisitorEntryMobileNo.getText().toString());
+                        parkCheckInReq.setMobile(etvisitorEntryMobileNo.getText().toString().replaceAll("[^0-9]", ""));
                         parkCheckInReq.setVehicleNumber(etVehicleNumber.getText().toString().trim());
                         parkCheckInReq.setTypeOfVisitorId(typeOfId);
                         parkCheckInReq.setCheckedInAtDeviceId(Utilities.getUDIDNumber(ParkingCheckInActivity.this));

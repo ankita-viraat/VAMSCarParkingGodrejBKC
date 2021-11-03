@@ -1,0 +1,4 @@
+# Referenced at D:\Viraat Projects\Parking_Project\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:49
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\Viraat Projects\Parking_Project\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:49
+-keep class info.vams.zktecoedu.reception.ApplicationFont.CustomApplicationFont { <init>(); }

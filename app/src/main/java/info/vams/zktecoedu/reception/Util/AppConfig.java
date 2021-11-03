@@ -36,7 +36,9 @@ public class AppConfig {
 
 //    public static final String WEB_URL = "http://182.72.92.110:8082/VamsCommercialExcel400/";
 //    public static final String WEB_URL = "https://www.vaspl.in/vamsgodrejbkc/";
-    public static final String WEB_URL = "https://www.vtlpl.in/VAMSGodrejbkc/";
+   // public static final String WEB_URL = "https://www.vtlpl.in/VAMSGodrejbkc/";
+   // public static final String WEB_URL = "https://182.72.92.110:9081/VamsCommercialExcel400/";
+    public static final String WEB_URL = "https://vamsglobal.in:9081/VamsCommercialExcelVer402/";
     //Web Methods
     public static final String TOKEN = "token";
 

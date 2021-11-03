@@ -254,5 +254,8 @@
     <string name="no">नाही</string>
     <string name="child_pickup_detail_saved">Child Pickup Details Saved</string>
     <string name="contractor_entry">Contarctor Entry</string>
+    <string name="parkedBy">Parked By</string>
+    <string name="driver">Driver</string>
+    <string name="valet">Valet</string>
 
 </resources>

@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_visitorEntryActivityOne"
+    android:animateLayoutChanges="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_visitorEntryActivityOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_visitorEntryActivityOne"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="@dimen/abc_action_bar_default_height_material">
+            <ImageView
+                android:id="@+id/ivLogo_visitorEntryActivity"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_godrejlogo" />
+            <ImageView
+                android:id="@+id/ivCheckOut"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:scaleType="fitCenter"
+                android:tint="@color/black"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/visitorlogout" />
+            <ImageView
+                android:id="@+id/ivLogout"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/logout"
+                android:visibility="visible"
+                android:tint="@color/colorAccent" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_visitorEntryActivityOne"
+        android:background="@color/white"
+        android:animateLayoutChanges="true"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:animateLayoutChanges="true"
+                android:background="@color/white"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:animateLayoutChanges="true"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:animateLayoutChanges="true"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/etSearchEmployee"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight=".7"
+                            android:animateLayoutChanges="true"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/questionsDigits"
+                            android:hint="@string/search_by_vehicle_number"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:maxLength="30"
+                            android:nextFocusDown="@id/atcParkingLoc"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+                        <Button
+                            android:id="@+id/btnSearch"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="0.3"
+                            android:animateLayoutChanges="true"
+                            android:background="@color/loginColor"
+                            android:text="Search"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/customMontserratBold"
+                            android:textColor="@color/logintxtColor"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/parking_location"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                      <!--  <Spinner
+                            android:id="@+id/spnParkingLoc"
+                            style="@style/spinner_country"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:focusable="true" />-->
+
+
+                        <info.vams.zktecoedu.reception.CustomView.InstantAutoComplete
+                            android:id="@+id/atcParkingLoc"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="6"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/accessCardDigits"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+                    </LinearLayout>
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/sub_location"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:id="@+id/etSubLocation"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="6"
+                            android:maxLength="50"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/questionsDigits"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:nextFocusDown="@id/etSubLocation"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:visibility="invisible"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/tenant_name"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                        <AutoCompleteTextView
+                            android:id="@+id/actv_visitorEntrypersonToMeet"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="6"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/accessCardDigits"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/first_name"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:id="@+id/etFirstName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:maxLength="50"
+                            android:layout_weight="6"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/visitorNameDigits"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:nextFocusDown="@id/etLastName"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/last_name"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:id="@+id/etLastName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="6"
+                            android:maxLength="50"
+
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/visitorNameDigits"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords"
+                            android:nextFocusDown="@id/actvVisitorEntryIsd"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/cell_number"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                        <LinearLayout
+                            android:id="@+id/llVisitorFlagIsd"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/dim_4"
+                            android:layout_weight="3"
+                            android:background="@drawable/edittext_focude_effect_for_isd"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:id="@+id/ivVisitorEntryIsdFlag"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.4"
+                                android:src="@drawable/ic_india" />
+
+
+                            <AutoCompleteTextView
+                                android:id="@+id/actvVisitorEntryIsd"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.6"
+                                android:background="@null"
+                                android:gravity="center"
+                                android:imeOptions="actionNext"
+                                android:inputType="phone"
+                                android:maxLength="@integer/isdMaxLength"
+                                android:nextFocusDown="@id/etvisitorEntryMobileNo"
+                                android:singleLine="true"
+                                android:text="+91"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/customMontserratRegular"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/etvisitorEntryMobileNo"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone"
+                            android:maxLength="15"
+                            android:nextFocusDown="@id/spnTypeOfVisitor"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/vehicle_number"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:id="@+id/etVehicleNumber"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="6"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/visitor_vehicle_number"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapCharacters"
+                            android:maxLength="20"
+                            android:nextFocusDown="@id/spnTypeOfVisitor"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/type_of_visitor"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+
+                        <Spinner
+                            android:id="@+id/spnTypeOfVisitor"
+                            style="@style/spinner_country"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:focusable="true" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/parkedBy"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup"
+                            android:layout_width="0dp"
+                            android:layout_weight="6"
+                            android:weightSum="3"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:id="@+id/rdEmployee"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:text="@string/employee"
+                                android:textSize="18sp"/>
+
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:id="@+id/rdDriver"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/driver"
+                                android:textSize="18sp"/>
+
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:id="@+id/rdValet"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/valet"
+                                android:textSize="18sp"/>
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1.5">
+
+
+                        <Button
+                            android:id="@+id/btnCheckIn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:background="@color/loginBtn"
+                            android:text="@string/check_in"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/customMontserratBold"
+                            android:textColor="@color/logintxtColor" />
+                        <Button
+                            android:id="@+id/btnClear"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:layout_marginLeft="5dp"
+                            android:background="@color/loginColor"
+                            android:text="Clear"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/customMontserratBold"
+                            android:textColor="@color/logintxtColor" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvSexualOffendMatch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dim_10"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:text="@string/sexual_offender_match_found"
+                        android:textAppearance="@style/customMontserratLight"
+                        android:textColor="@color/errorcolor"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

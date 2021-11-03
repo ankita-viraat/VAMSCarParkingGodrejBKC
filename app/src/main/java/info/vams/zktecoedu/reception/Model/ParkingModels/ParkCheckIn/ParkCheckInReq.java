@@ -12,6 +12,7 @@ public class ParkCheckInReq {
     int complexId;
     int tenantId;
     int parkingLocationId;
+    String ParkedBy;
     String subLocation;
     String firstName;
     String lastName;
@@ -163,11 +164,21 @@ public class ParkCheckInReq {
         this.requestClientDetails = requestClientDetails;
     }
 
+    public String getParkedBy() {
+        return ParkedBy;
+    }
+
+    public void setParkedBy(String parkedBy) {
+        ParkedBy = parkedBy;
+    }
+
+    @Override
     public String toString() {
         return "ParkCheckInReq{" +
                 "complexId=" + complexId +
                 ", tenantId=" + tenantId +
                 ", parkingLocationId=" + parkingLocationId +
+                ", ParkedBy='" + ParkedBy + '\'' +
                 ", subLocation='" + subLocation + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +

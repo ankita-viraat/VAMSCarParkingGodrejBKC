@@ -1186,5 +1186,8 @@
 
     <string name="select_emplyee">Select Existing Employee / Visitor</string>
     <string name="checking_in">Checking in</string>
+    <string name="parkedBy">Parked By</string>
+    <string name="driver">Driver</string>
+    <string name="valet">Valet</string>
 
 </resources>
