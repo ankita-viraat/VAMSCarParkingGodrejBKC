@@ -211,7 +211,6 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
     }
 
     void afterCheckInSuccess(ParkCheckInResp ParkCheckInResp, boolean isSkip) {
-
         if (isSkip) {
             Runnable runnable = new Runnable() {
                 @Override
@@ -226,7 +225,42 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
             task.execute();
         }
 //        Toast.makeText(ParkingPhotoActivity.this,"Park Check in Success!",Toast.LENGTH_LONG).show();
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.e("lifecycle ParkingPhoto:","On start called...");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.e("lifecycle ParkingPhoto:","On restart called...");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e("lifecycle ParkingPhoto:","On resume called...");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e("lifecycle ParkingPhoto:","On pause called...");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.e("lifecycle ParkingPhoto:","On stop called...");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.e("lifecycle ParkingPhoto:","On destroy called...");
     }
 
     void removeImage(final String key) {
@@ -401,57 +435,59 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
 
                 switch (requestCode) {
                     case PICK_IMAGE_ID:
-                        try {
-                            BitmapFactory.Options options = new BitmapFactory.Options();
-                            final Bitmap bitmap = BitmapFactory.decodeFile(fileUri.getPath(), options);
-                            Bitmap tempBitmap = null;
-                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                                tempBitmap = Utilities.modifyOrientation(bitmap, fileUri.getPath(), false);
-                            }
-
-                            Uri uri = null;
-                            // make a copy of file
-                            if (tempBitmap != null) {
-                                uri = makePhotoCopy(tempBitmap);
-                            }
-
-                            if (fileUri != null) {
-                                if (new File(fileUri.getPath()).exists()) {
-                                    new File(fileUri.getPath()).delete();
+                        if (fileUri != null) {
+                            try {
+                                BitmapFactory.Options options = new BitmapFactory.Options();
+                                final Bitmap bitmap = BitmapFactory.decodeFile(fileUri.getPath(), options);
+                                Bitmap tempBitmap = null;
+                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                                    tempBitmap = Utilities.modifyOrientation(bitmap, fileUri.getPath(), false);
                                 }
-                            }
 
-                            if (lstParkingUri.size() == 0) {
-                                imgvCapture1.setImageBitmap(tempBitmap);
-                                imgvCapture1.setBackgroundColor(getResources().getColor(R.color.white));
-                                lstParkingUri.put(IMAGE_1, uri);
-                            } else if (lstParkingUri.size() == 1) {
-                                imgvCapture2.setImageBitmap(tempBitmap);
-                                imgvCapture2.setBackgroundColor(getResources().getColor(R.color.white));
-                                lstParkingUri.put(IMAGE_2, uri);
-                            } else if (lstParkingUri.size() == 2) {
+                                Uri uri = null;
+                                // make a copy of file
+                                if (tempBitmap != null) {
+                                    uri = makePhotoCopy(tempBitmap);
+                                }
 
-                                imgvCapture3.setImageBitmap(tempBitmap);
-                                imgvCapture3.setBackgroundColor(getResources().getColor(R.color.white));
-                                lstParkingUri.put(IMAGE_3, uri);
+                                if (fileUri != null) {
+                                    if (new File(fileUri.getPath()).exists()) {
+                                        new File(fileUri.getPath()).delete();
+                                    }
+                                }
+
+                                if (lstParkingUri.size() == 0) {
+                                    imgvCapture1.setImageBitmap(tempBitmap);
+                                    imgvCapture1.setBackgroundColor(getResources().getColor(R.color.white));
+                                    lstParkingUri.put(IMAGE_1, uri);
+                                } else if (lstParkingUri.size() == 1) {
+                                    imgvCapture2.setImageBitmap(tempBitmap);
+                                    imgvCapture2.setBackgroundColor(getResources().getColor(R.color.white));
+                                    lstParkingUri.put(IMAGE_2, uri);
+                                } else if (lstParkingUri.size() == 2) {
+
+                                    imgvCapture3.setImageBitmap(tempBitmap);
+                                    imgvCapture3.setBackgroundColor(getResources().getColor(R.color.white));
+                                    lstParkingUri.put(IMAGE_3, uri);
+                                } else if (lstParkingUri.size() == 3) {
+                                    imgvCapture4.setImageBitmap(tempBitmap);
+                                    imgvCapture4.setBackgroundColor(getResources().getColor(R.color.white));
+                                    lstParkingUri.put(IMAGE_4, uri);
+                                } else if (lstParkingUri.size() == 4) {
+                                    imgvCapture5.setImageBitmap(tempBitmap);
+                                    imgvCapture5.setBackgroundColor(getResources().getColor(R.color.white));
+                                    lstParkingUri.put(IMAGE_5, uri);
+                                } else if (lstParkingUri.size() == 5) {
+                                    imgvCapture6.setImageBitmap(tempBitmap);
+                                    imgvCapture6.setBackgroundColor(getResources().getColor(R.color.white));
+                                    lstParkingUri.put(IMAGE_6, uri);
+                                }
+                            } catch(IOException e){
+                                e.printStackTrace();
+                                Log.e("exception uri",e.getMessage());
                             }
-                            else if (lstParkingUri.size() == 3) {
-                                imgvCapture4.setImageBitmap(tempBitmap);
-                                imgvCapture4.setBackgroundColor(getResources().getColor(R.color.white));
-                                lstParkingUri.put(IMAGE_4, uri);
-                            }
-                            else if (lstParkingUri.size() == 4) {
-                                imgvCapture5.setImageBitmap(tempBitmap);
-                                imgvCapture5.setBackgroundColor(getResources().getColor(R.color.white));
-                                lstParkingUri.put(IMAGE_5, uri);
-                            }
-                            else if (lstParkingUri.size() == 5) {
-                                imgvCapture6.setImageBitmap(tempBitmap);
-                                imgvCapture6.setBackgroundColor(getResources().getColor(R.color.white));
-                                lstParkingUri.put(IMAGE_6, uri);
-                            }
-                        } catch (IOException e) {
-                            e.printStackTrace();
+                        }else{
+                            Toast.makeText(context, "Error saving image...please try again", Toast.LENGTH_SHORT).show();
                         }
 
                         break;

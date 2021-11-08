@@ -557,12 +557,12 @@
                             android:layout_weight="6"
                             android:weightSum="3"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal">
+                            android:orientation="vertical">
 
                             <RadioButton
                                 android:layout_weight="1"
                                 android:id="@+id/rdEmployee"
-                                android:layout_width="0dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:checked="true"
                                 android:text="@string/employee"
@@ -571,7 +571,7 @@
                             <RadioButton
                                 android:layout_weight="1"
                                 android:id="@+id/rdDriver"
-                                android:layout_width="0dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="@string/driver"
                                 android:textSize="18sp"/>
@@ -579,7 +579,7 @@
                             <RadioButton
                                 android:layout_weight="1"
                                 android:id="@+id/rdValet"
-                                android:layout_width="0dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="@string/valet"
                                 android:textSize="18sp"/>

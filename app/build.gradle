@@ -1,27 +1,13 @@
-buildscript {
-    repositories {
-        maven { url 'https://maven.fabric.io/public' }
-    }
-
-    dependencies {
-        classpath 'io.fabric.tools:gradle:1.31.2'
-    }
-}
 apply plugin: 'com.android.application'
-
-repositories {
-    maven { url 'https://maven.fabric.io/public' }
-}
-
-apply plugin: 'io.fabric'
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 
 android {
     compileSdkVersion 29
     //buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "info.vams.zktecoedu.reception"
-        minSdkVersion 17
+        minSdkVersion 19
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
@@ -79,7 +65,6 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:29.0.0'
     implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
     implementation 'com.squareup.picasso:picasso:2.5.2'
-    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
     implementation "com.daimajia.swipelayout:library:1.2.0@aar"
     implementation 'com.github.chathuralakmal:AndroidImagePopup:1.2.1'
     implementation files('libs/BrotherPrintLibrary.aar')
@@ -90,12 +75,13 @@ dependencies {
     implementation project(':barcode-reader')
     implementation 'com.google.android.material:material:1.0.0'
 // Import the BoM for the Firebase platform
-    implementation platform('com.google.firebase:firebase-bom:26.1.0')
+    implementation platform('com.google.firebase:firebase-bom:29.0.0')
 
     // Declare the dependencies for the Firebase Cloud Messaging and Analytics libraries
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation 'com.google.firebase:firebase-messaging:22.0.0'
     implementation 'com.google.firebase:firebase-iid:21.1.0'
+    implementation 'com.google.firebase:firebase-crashlytics'
     implementation 'com.google.firebase:firebase-analytics'
 }
 //apply plugin: 'com.google.gms.google-services'
