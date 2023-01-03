@@ -1494,15 +1494,15 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user
 drawable username
-drawable vams_logo
 drawable vams_powered_by_banner
+drawable vamslogo
 drawable viewpassword
 drawable visibility
 drawable visibility_off
 drawable visitor_entry
 drawable visitorlogout
 drawable visitorpassqueue
-drawable zkteco_logo
+drawable zktecologo
 id ALT
 id CTRL
 id FUNCTION
@@ -1715,6 +1715,7 @@ id etReAuthenticateKey
 id etSearchBar
 id etSearchEmployee
 id etSubLocation
+id etTokenNumber
 id etVehicleNumber
 id etVisitorEmailIdPreAppointment
 id etVisitorIsdcodePreAppointment
@@ -2686,6 +2687,7 @@ string error_password_required
 string error_person_to_meet
 string error_questions
 string error_tenant_name
+string error_token_no_required
 string error_vehicle_no_required
 string error_visitor_name
 string error_visitor_name_mandatory
@@ -3070,6 +3072,7 @@ string timeout_text
 string timeout_title
 string title_activity_main
 string toast_one
+string token_number
 string top_margin_title
 string top_margin_value
 string trim_tape_after_data_title

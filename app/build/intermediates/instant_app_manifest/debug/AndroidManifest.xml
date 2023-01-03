@@ -6,7 +6,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="19"
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -54,7 +54,9 @@
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher_vams"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <meta-data
@@ -147,9 +149,11 @@
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.AdditionalVisitorActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.AdditionalVisitorList"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <service
@@ -158,15 +162,19 @@
 
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.LogoutListActvity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.BuildingLevelVisitiorLogoutActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.PassQueueActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.ChildPickupActivity"
@@ -187,23 +195,27 @@
             android:name="info.vams.zktecoedu.reception.Activity.Activity_Settings"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
             android:label="@string/menu_settings"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.Activity_NetPrinterList"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.Activity_PrintPdf"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
             android:label="@string/text_print_pdf"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="info.vams.zktecoedu.reception.Activity.Activity_SaveFile"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
             android:label="@string/text_print_pdf"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
@@ -249,6 +261,9 @@
                 android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
@@ -266,12 +281,6 @@
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
-
-        <provider
-            android:name="com.crashlytics.android.CrashlyticsInitProvider"
-            android:authorities="info.vams.zktecoedu.reception.crashlyticsinitprovider"
-            android:exported="false"
-            android:initOrder="90" />
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
@@ -300,6 +309,15 @@
                 android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
                 android:value="cct" />
         </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
@@ -332,16 +350,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <service
-            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-            android:exported="false"
-            android:permission="android.permission.BIND_JOB_SERVICE" >
-        </service>
-
-        <receiver
-            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-            android:exported="false" />
     </application>
 
 </manifest>

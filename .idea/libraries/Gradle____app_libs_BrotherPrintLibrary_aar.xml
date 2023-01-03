@@ -1,11 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: ./app/libs/BrotherPrintLibrary.aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0ddccebdb17ea468205e254ffd015b6/BrotherPrintLibrary/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d37901f441fb680dcd0a1ef6116f754/BrotherPrintLibrary/jars/libs/MobilePrintLib.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d37901f441fb680dcd0a1ef6116f754/BrotherPrintLibrary/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d37901f441fb680dcd0a1ef6116f754/BrotherPrintLibrary/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d37901f441fb680dcd0a1ef6116f754/BrotherPrintLibrary/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43e95732d7c8f1a4b9b8c76c85f17b00/BrotherPrintLibrary/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43e95732d7c8f1a4b9b8c76c85f17b00/BrotherPrintLibrary/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43e95732d7c8f1a4b9b8c76c85f17b00/BrotherPrintLibrary/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/43e95732d7c8f1a4b9b8c76c85f17b00/BrotherPrintLibrary/jars/libs/MobilePrintLib.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
