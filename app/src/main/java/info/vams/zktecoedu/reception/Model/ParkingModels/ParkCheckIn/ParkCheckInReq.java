@@ -19,6 +19,7 @@ public class ParkCheckInReq {
     String isdCode;
     String mobile;
     String vehicleNumber;
+    String tokenNumber;
     int typeOfVisitorId;
     String typeOfVisitor;
     String checkInTimeLocal;
@@ -148,6 +149,39 @@ public class ParkCheckInReq {
         this.checkedInAtFcmId = checkedInAtFcmId;
     }
 
+    @Override
+    public String toString() {
+        return "ParkCheckInReq{" +
+                "complexId=" + complexId +
+                ", tenantId=" + tenantId +
+                ", parkingLocationId=" + parkingLocationId +
+                ", ParkedBy='" + ParkedBy + '\'' +
+                ", subLocation='" + subLocation + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", isdCode='" + isdCode + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", vehicleNumber='" + vehicleNumber + '\'' +
+                ", tokenNumber='" + tokenNumber + '\'' +
+                ", typeOfVisitorId=" + typeOfVisitorId +
+                ", typeOfVisitor='" + typeOfVisitor + '\'' +
+                ", checkInTimeLocal='" + checkInTimeLocal + '\'' +
+                ", checkedInById=" + checkedInById +
+                ", checkedInAtDeviceId='" + checkedInAtDeviceId + '\'' +
+                ", checkedInAtFcmId='" + checkedInAtFcmId + '\'' +
+                ", photo=" + photo +
+                ", requestClientDetails=" + requestClientDetails +
+                '}';
+    }
+
+    public String getTokenNumber() {
+        return tokenNumber;
+    }
+
+    public void setTokenNumber(String tokenNumber) {
+        this.tokenNumber = tokenNumber;
+    }
+
     public ArrayList<String> getPhoto() {
         return photo;
     }
@@ -172,27 +206,5 @@ public class ParkCheckInReq {
         ParkedBy = parkedBy;
     }
 
-    @Override
-    public String toString() {
-        return "ParkCheckInReq{" +
-                "complexId=" + complexId +
-                ", tenantId=" + tenantId +
-                ", parkingLocationId=" + parkingLocationId +
-                ", ParkedBy='" + ParkedBy + '\'' +
-                ", subLocation='" + subLocation + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", isdCode='" + isdCode + '\'' +
-                ", mobile='" + mobile + '\'' +
-                ", vehicleNumber='" + vehicleNumber + '\'' +
-                ", typeOfVisitorId=" + typeOfVisitorId +
-                ", typeOfVisitor='" + typeOfVisitor + '\'' +
-                ", checkInTimeLocal='" + checkInTimeLocal + '\'' +
-                ", checkedInById=" + checkedInById +
-                ", checkedInAtDeviceId='" + checkedInAtDeviceId + '\'' +
-                ", checkedInAtFcmId='" + checkedInAtFcmId + '\'' +
-                ", photo=" + photo +
-                ", requestClientDetails=" + requestClientDetails +
-                '}';
-    }
+
 }

@@ -491,6 +491,50 @@
                             android:textColor="@color/blueColor" />
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="10.2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="4"
+                            android:singleLine="false"
+                            android:text="@string/token_number"
+                            android:textAppearance="@style/customMontserratRegular"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:id="@+id/etTokenNumber"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_weight="6"
+                            android:background="@drawable/edittext_focude_effect"
+                            android:digits="@string/visitor_vehicle_number"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:maxLength="5"
+                            android:nextFocusDown="@id/spnTypeOfVisitor"
+                            android:singleLine="true"
+                            android:textAppearance="@style/customMontserratRegular" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="0.2"
+                            android:gravity="center"
+                            android:text="*"
+                            android:textColor="@color/blueColor" />
+                    </LinearLayout>
+
 
                     <LinearLayout
                         android:layout_width="match_parent"

@@ -662,6 +662,8 @@ public class Imageutils {
         String file_name;
         Bitmap bitmap;
 
+        Log.e(TAG, "onActivityResult: "+data.getDataString() );
+
         switch (requestCode) {
             case 200:
                 if (resultCode == RESULT_OK) {

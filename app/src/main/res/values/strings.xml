@@ -1162,6 +1162,7 @@
     <string name="cell_number">Cell Number</string>
 -->
     <string name="vehicle_number">Vehicle Number</string>
+    <string name="token_number">Token Number</string>
     <string name="type_of_visitor">Type Of Visior</string>
     <string name="in_time">In Time</string>
     <string name="out_time">Out Time</string>
@@ -1177,6 +1178,7 @@
     <string name="error_company_mandatory">Company Name Is Mandatory</string>
     <string name="error_company_invalid">Company Name Is Invalid</string>
     <string name="error_vehicle_no_required">Vehicle Number Is Mandatory</string>
+    <string name="error_token_no_required">Token Number Is Mandatory</string>
     <string name="error_visitor_name_mandatory">First Name Is Mandatory</string>
     <string name="error_last_name_mandatory">Last Name Is Mandatory</string>
 

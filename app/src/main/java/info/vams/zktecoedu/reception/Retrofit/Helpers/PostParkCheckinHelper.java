@@ -31,6 +31,7 @@ public class PostParkCheckinHelper {
 
     public static void callMethod(final Context context, final IGetResponse iGetResponse, ParkCheckInReq parkCheckInReq) {
         Utilities.showprogressDialogue(context.getString(R.string.checking_in ), context.getString(R.string.please_wait), context, true);
+        Log.e("TAG", "callMethod: "+parkCheckInReq.toString() );
         Call<ResponseBody> call = ApiUtils.getAPIService().postParkingCheckIn(Utilities.getToken(context),
                 parkCheckInReq );
         call.enqueue(new Callback<ResponseBody>() {

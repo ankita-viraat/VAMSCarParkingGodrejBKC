@@ -199,7 +199,6 @@
                             android:layout_weight="1"
                             android:layout_marginLeft="10dp"
                             android:background="@color/white"
-
                             android:layout_height="match_parent"></ImageView>
 
                         <ImageView

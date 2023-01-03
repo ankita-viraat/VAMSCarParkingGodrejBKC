@@ -48,13 +48,12 @@ import info.vams.zktecoedu.reception.Util.AppConfig;
 import info.vams.zktecoedu.reception.Util.Imageutils;
 import info.vams.zktecoedu.reception.Util.Utilities;
 
-
 public class ParkingPhotoActivity extends BaseActivity implements Imageutils.ImageAttachmentListener {
     private static final String TAG = "ParkingPhotoActivity";
     CircleImageView civCaptureimage;
     ImageView imgvCapture1, imgvCapture2, imgvCapture3, imgvCapture4, imgvCapture5, imgvCapture6, ivBack,ivLogo_visitorEntryActivity;
     Context context;
-    private Uri fileUri;
+    private Uri fileUri = null;
     private static int MEDIA_TYPE_IMAGE = 1;
     private static final int CAPTURE_DOCUMENT = 20;
     private static final int PICK_IMAGE_ID = 100;
@@ -62,7 +61,6 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
     private static final int CAMERA_REQ = 300;
     Imageutils imageUtils;
     Button btnCheckIn, btnSkip;
-
     HashMap<String, Uri> lstParkingUri = new HashMap<>();
 
     final String IMAGE_1 = "image1";
@@ -93,7 +91,7 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
         imgvCapture2 = findViewById(R.id.imgvCapture2);
         imgvCapture3 = findViewById(R.id.imgvCapture3);
         imgvCapture4 = findViewById(R.id.imgvCapture4);
-        imgvCapture5 = findViewById(R.id.imgvCapture5);
+        imgvCapture5 = findViewById(R.id.imgvCapture5 );
         imgvCapture6 = findViewById(R.id.imgvCapture6);
         ivBack = findViewById(R.id.ivBack);
         btnCheckIn = findViewById(R.id.btnCheckIn);
@@ -230,37 +228,31 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
     @Override
     protected void onStart() {
         super.onStart();
-        Log.e("lifecycle ParkingPhoto:","On start called...");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.e("lifecycle ParkingPhoto:","On restart called...");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("lifecycle ParkingPhoto:","On resume called...");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.e("lifecycle ParkingPhoto:","On pause called...");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.e("lifecycle ParkingPhoto:","On stop called...");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.e("lifecycle ParkingPhoto:","On destroy called...");
     }
 
     void removeImage(final String key) {
@@ -326,7 +318,9 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
             Toast.makeText(ParkingPhotoActivity.this, "Max Image limit reached", Toast.LENGTH_LONG).show();
         } else {
             if (Utilities.getDevice().equalsIgnoreCase("samsung")) {
-                captureVisitorImageCamera2();
+                //captureVisitorImageCamera2();
+                captureDocumentImage();
+
             } else {
                 captureDocumentImage();
             }
@@ -338,16 +332,22 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
     }
 
     private void captureDocumentImage() {
-        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        fileUri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);
-        intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
-        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-        if (LoginActivity.isSelfeHeplKiosk) {
-            intent.putExtra("android.intent.extras.CAMERA_FACING", Camera.CameraInfo.CAMERA_FACING_FRONT);
-        } else {
-            intent.putExtra("android.intent.extras.CAMERA_FACING", Camera.CameraInfo.CAMERA_FACING_BACK);
+        try {
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            fileUri = getOutputMediaFileUri(MEDIA_TYPE_IMAGE);
+            Log.e(TAG, "captureDocumentImage: " + fileUri.getPath());
+            intent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
+            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            if (LoginActivity.isSelfeHeplKiosk) {
+                intent.putExtra("android.intent.extras.CAMERA_FACING", Camera.CameraInfo.CAMERA_FACING_FRONT);
+            } else {
+                intent.putExtra("android.intent.extras.CAMERA_FACING", Camera.CameraInfo.CAMERA_FACING_BACK);
+            }
+            startActivityForResult(intent, PICK_IMAGE_ID);
+        }catch (Exception e){
+            Log.e(TAG, "captureDocumentImage: "+e.getMessage() );
+            Toast.makeText(this,"something went wrong please try again",Toast.LENGTH_SHORT).show();
         }
-        startActivityForResult(intent, PICK_IMAGE_ID);
     }
 
     public Uri getOutputMediaFileUri(int type) {
@@ -355,15 +355,21 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
 //        return FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".provider", Uri.fromFile(getOutputMediaFile(type, false)).);
     }
 
-    private static File getOutputMediaFile(int type, boolean isCopy) {
+    private  File getOutputMediaFile(int type, boolean isCopy) {
         String path = AppConfig.APP_PROF_DIR
                 + File.separator
                 + AppConfig.APP_DOWNLOAD_PROFILE
                 + File.separator;
 
         // External sdcard location
-        File mediaStorageDir = new File(
-                Environment.getExternalStorageDirectory(), path);
+        File mediaStorageDir ;
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q)
+            mediaStorageDir = new File(Environment.getExternalStorageDirectory(), path);
+        else
+            mediaStorageDir = new File(this.getExternalFilesDir(null).getAbsolutePath(), path);
+
+     /*   File mediaStorageDir = new File(
+                Environment.getExternalStorageDirectory(), path);*/
 
         // Create the storage directory if it does not exist
         if (!mediaStorageDir.exists()) {
@@ -386,11 +392,12 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
                 mediaFile = new File(mediaStorageDir.getPath() + File.separator
                         + "IMG_Copy" + timeStamp + ".jpg");
             }
+            Log.e(TAG, "getOutputMediaFile: "+mediaFile.getPath() );
+            return mediaFile;
+
         } else {
             return null;
         }
-
-        return mediaFile;
     }
 
     private Uri makePhotoCopy(Bitmap tempBitmap) {
@@ -432,6 +439,7 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
         super.onActivityResult(requestCode, resultCode, data);
         try {
             if (resultCode != Activity.RESULT_CANCELED) {
+                Log.e(TAG, "onActivityResult: "+fileUri.getPath() );
 
                 switch (requestCode) {
                     case PICK_IMAGE_ID:
@@ -455,7 +463,6 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
                                         new File(fileUri.getPath()).delete();
                                     }
                                 }
-
                                 if (lstParkingUri.size() == 0) {
                                     imgvCapture1.setImageBitmap(tempBitmap);
                                     imgvCapture1.setBackgroundColor(getResources().getColor(R.color.white));
@@ -465,7 +472,6 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
                                     imgvCapture2.setBackgroundColor(getResources().getColor(R.color.white));
                                     lstParkingUri.put(IMAGE_2, uri);
                                 } else if (lstParkingUri.size() == 2) {
-
                                     imgvCapture3.setImageBitmap(tempBitmap);
                                     imgvCapture3.setBackgroundColor(getResources().getColor(R.color.white));
                                     lstParkingUri.put(IMAGE_3, uri);
@@ -486,13 +492,15 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
                                 e.printStackTrace();
                                 Log.e("exception uri",e.getMessage());
                             }
-                        }else{
+                        }
+                        else{
                             Toast.makeText(context, "Error saving image...please try again", Toast.LENGTH_SHORT).show();
                         }
 
                         break;
 
                     case CAPTURE_ID:
+                        Log.e(TAG, "onActivityResult: CAPTURE_ID" );
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                             imageUtils.onActivityResult(requestCode, resultCode, data);
                         }

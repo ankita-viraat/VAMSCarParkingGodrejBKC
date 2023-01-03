@@ -80,7 +80,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-
 public class ParkingCheckInActivity extends BaseActivity implements Imageutils.ImageAttachmentListener {
 
     public static boolean parkingCheckInPageLive = false;
@@ -99,7 +98,7 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
     InstantAutoComplete atcParkingLoc;
     AutoCompleteTextView atcCompanyName;
     TenantList selectedCompany;
-    EditText etSubLocation, etFirstName, etLastName, etvisitorEntryMobileNo, etVehicleNumber, etSearchEmployee;
+    EditText etSubLocation, etFirstName, etLastName, etvisitorEntryMobileNo, etVehicleNumber,etTokenNumber, etSearchEmployee;
     AlertDialog alertDialog;
     ImageView ivVisitorEntryIsdFlag, ivCheckOut, ivLogout, ivLogo_visitorEntryActivity;
     Context context;
@@ -151,6 +150,7 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
         ivVisitorEntryIsdFlag = findViewById(R.id.ivVisitorEntryIsdFlag);
         llVisitorFlagIsd = findViewById(R.id.llVisitorFlagIsd);
         etVehicleNumber = findViewById(R.id.etVehicleNumber);
+        etTokenNumber = findViewById(R.id.etTokenNumber);
         ivCheckOut = (ImageView) findViewById(R.id.ivCheckOut);
         btnSearch = findViewById(R.id.btnSearch);
         ivLogo_visitorEntryActivity = findViewById(R.id.ivLogo_visitorEntryActivity);
@@ -282,6 +282,7 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
                         parkCheckInReq.setIsdCode(selectedcountyISD == null ? actvVisitorEntryIsd.getText().toString() : selectedcountyISD.getDialCode());
                         parkCheckInReq.setMobile(etvisitorEntryMobileNo.getText().toString().replaceAll("[^0-9]", ""));
                         parkCheckInReq.setVehicleNumber(etVehicleNumber.getText().toString().trim());
+                        parkCheckInReq.setTokenNumber(etTokenNumber.getText().toString().trim());
                         parkCheckInReq.setTypeOfVisitorId(typeOfId);
                         parkCheckInReq.setCheckedInAtDeviceId(Utilities.getUDIDNumber(ParkingCheckInActivity.this));
                         parkCheckInReq.setTypeOfVisitor(typeOfVstr);
@@ -328,13 +329,14 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
                 }
             }
         });
+
         Utilities.addTextChangeListener(this, etFirstName);
         Utilities.addTextChangeListener(this, etLastName);
         Utilities.addTextChangeListener(this, etvisitorEntryMobileNo);
         Utilities.addTextChangeListener(this, etVehicleNumber);
+        Utilities.addTextChangeListener(this, etTokenNumber);
         Utilities.addTextChangeListener(this, atcParkingLoc);
         Utilities.addTextChangeListener(this, atcCompanyName);
-
 
         UsPhoneNumberFormatter addLineNumberFormatter = new UsPhoneNumberFormatter(
                 new WeakReference<EditText>(etvisitorEntryMobileNo));
@@ -398,6 +400,7 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
         actvVisitorEntryIsd.setText("+" + profile.getIsdCode());
         etvisitorEntryMobileNo.setText("");
         etVehicleNumber.setText("");
+        etTokenNumber.setText("");
         ivVisitorEntryIsdFlag.setImageResource(Utilities.setDrawableFlage("+" + profile.getIsdCode()));
         spnTypeOfVisitor.setSelection(0);
         atcParkingLoc.setError(null);
@@ -629,6 +632,15 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
             }
         }
 
+        //
+        if (etTokenNumber.getText().toString().isEmpty()) {
+            etTokenNumber.setError(getString(R.string.error_token_no_required));
+            etTokenNumber.setBackground(getResources().getDrawable(R.drawable.edittext_error));
+            if (error == 0) {
+                error++;
+                etTokenNumber.requestFocus();
+            }
+        }
         if (spnTypeOfVisitor.getSelectedItemPosition() == 0) {
             if (error == 0) {
                 spnTypeOfVisitor.setBackground(getResources().getDrawable(R.drawable.edittext_error));
@@ -645,33 +657,34 @@ public class ParkingCheckInActivity extends BaseActivity implements Imageutils.I
         ArrayList<String> typeOfVisitor = new ArrayList<String>();
         if (masterResponse == null) {
             masterResponse = new Gson().fromJson(new SPbean(this).getPreference(Constants.MASTER_RESPONSE, ""), MasterResponse.class);
-        }
-        if (masterResponse.getTypeOfVisitors() != null) {
-            typeOfVisitorArrayList = masterResponse.getTypeOfVisitors();
-            typeOfVisitor.add("Select");
-            for (int i = 0; i < typeOfVisitorArrayList.size(); i++) {
-                typeOfVisitor.add(typeOfVisitorArrayList.get(i).getVisitorType());
-            }
-            ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(this,
-                    R.layout.spinner_display_text, typeOfVisitor);
-            spinner.setAdapter(stringArrayAdapter);
-            spinner.setSelection(0);
-            spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-                @Override
-                public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                    if (view != null) {
-                        spnTypeOfVisitor.setBackground(getResources().getDrawable(R.drawable.gradient_spinner));
+            if (masterResponse.getTypeOfVisitors() != null) {
+                typeOfVisitorArrayList = masterResponse.getTypeOfVisitors();
+                typeOfVisitor.add("Select");
+                for (int i = 0; i < typeOfVisitorArrayList.size(); i++) {
+                    typeOfVisitor.add(typeOfVisitorArrayList.get(i).getVisitorType());
+                }
+                ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(this,
+                        R.layout.spinner_display_text, typeOfVisitor);
+                spinner.setAdapter(stringArrayAdapter);
+                spinner.setSelection(0);
+                spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                    @Override
+                    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                        if (view != null) {
+                            spnTypeOfVisitor.setBackground(getResources().getDrawable(R.drawable.gradient_spinner));
+                        }
                     }
-                }
 
-                @Override
-                public void onNothingSelected(AdapterView<?> adapterView) {
+                    @Override
+                    public void onNothingSelected(AdapterView<?> adapterView) {
 
-                }
-            });
-        } else {
-            Utilities.showPopup(this, "", "Type of visitor data is not avalibale");
+                    }
+                });
+            } else {
+                Utilities.showPopup(this, "", "Type of visitor data is not avalibale");
+            }
         }
+
     }
 
 

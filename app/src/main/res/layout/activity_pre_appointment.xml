@@ -94,7 +94,7 @@
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:scaleType="fitCenter"
-                android:src="@drawable/zkteco_logo" />
+                android:src="@drawable/ic_godrejlogo" />
             <ImageView
                 android:id="@+id/ivSos"
                 android:layout_width="40dp"

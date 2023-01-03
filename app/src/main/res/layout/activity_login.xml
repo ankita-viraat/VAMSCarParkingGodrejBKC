@@ -86,7 +86,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:scaleType="fitCenter"
-                android:src="@drawable/vams_logo" />
+                android:src="@drawable/ic_godrejlogo" />
 
 
             <ImageView
@@ -146,7 +146,7 @@
                     android:layout_height="140dp"
                     android:layout_marginBottom="@dimen/dim_25"
                     android:padding="@dimen/dimen_50"
-                    android:src="@drawable/ic_godrejlogo"/>
+                    android:src="@drawable/vamslogo"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"

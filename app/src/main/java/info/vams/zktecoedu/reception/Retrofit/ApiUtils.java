@@ -3,7 +3,10 @@ package info.vams.zktecoedu.reception.Retrofit;
 import android.util.Log;
 
 import info.vams.zktecoedu.reception.Util.AppConfig;
-
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 
 /**
@@ -18,8 +21,18 @@ public class ApiUtils {
 
     public static APIService getAPIService() {
         Log.d("TAG","URL ="+BASE_URL);
-        return RetrofitClient.getClient(BASE_URL)
-                .create(APIService.class);
-    }
 
+        HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
+        interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+        OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(BASE_URL)
+                .client(client)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        return retrofit.create(APIService.class);
+
+        /*return RetrofitClient.getClient(BASE_URL)
+                .create(APIService.class);*/
+    }
 }

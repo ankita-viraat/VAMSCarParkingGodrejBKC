@@ -624,7 +624,7 @@ public class Utilities {
             Bitmap myBitmap = BitmapFactory.decodeFile(pdfFile.getAbsolutePath());
             image.setImageBitmap(myBitmap);
         }else{
-            image.setImageDrawable(context.getResources().getDrawable(R.drawable.zkteco_logo));
+            image.setImageDrawable(context.getResources().getDrawable(R.drawable.ic_godrejlogo));
         }
     }
 

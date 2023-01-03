@@ -144,7 +144,7 @@
                     android:layout_height="140dp"
                     android:padding="50dp"
                     android:layout_marginBottom="@dimen/dim_25"
-                    android:src="@drawable/vams_logo" />
+                    android:src="@drawable/vamslogo" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

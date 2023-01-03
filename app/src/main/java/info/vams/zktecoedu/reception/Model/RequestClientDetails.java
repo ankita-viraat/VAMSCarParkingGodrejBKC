@@ -50,4 +50,15 @@ public class RequestClientDetails {
     public void setLanguage(String language) {
         this.language = language;
     }
+
+    @Override
+    public String toString() {
+        return "RequestClientDetails{" +
+                "uuid='" + uuid + '\'' +
+                ", fcmId='" + fcmId + '\'' +
+                ", deviceType='" + deviceType + '\'' +
+                ", ip='" + ip + '\'' +
+                ", language='" + language + '\'' +
+                '}';
+    }
 }
