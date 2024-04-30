@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Viraat Projects\\Parking_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "outputFile": "D:\\Viraat Projects\\VAMSCarParkingGodrejBKC\\ParkingProject170424\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\150013176e1feeb90df65c9b8e4c7989\\jetified-firebase-messaging-23.0.0\\res\\values-zh-rCN\\values.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\754acd351459abcd83d0c590f2d78d3c\\jetified-firebase-messaging-23.0.0\\res\\values-zh-rCN\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\0c33037b688319eeb193e9ae1b4e8dbb\\jetified-play-services-basement-17.0.0\\res\\values-zh-rCN\\values.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\0208d086054aab3a520476529bf4cb53\\jetified-zxing-android-embedded-3.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,238",
+                        "endColumns": "48,46,86,68",
+                        "endOffsets": "99,146,233,302"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5219,5268,5315,5402",
+                        "endColumns": "48,46,86,68",
+                        "endOffsets": "5263,5310,5397,5466"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\2a68bcd5e7ed295416145bc774f34138\\jetified-play-services-basement-17.0.0\\res\\values-zh-rCN\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -69,23 +86,6 @@
                         "startOffsets": "5118",
                         "endColumns": "100",
                         "endOffsets": "5214"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\a90674b3d11cb5cf221dd12c1c64ad2d\\jetified-zxing-android-embedded-3.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,104,151,238",
-                        "endColumns": "48,46,86,68",
-                        "endOffsets": "99,146,233,302"
-                    },
-                    "to": {
-                        "startLines": "50,51,52,53",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5219,5268,5315,5402",
-                        "endColumns": "48,46,86,68",
-                        "endOffsets": "5263,5310,5397,5466"
                     }
                 },
                 {

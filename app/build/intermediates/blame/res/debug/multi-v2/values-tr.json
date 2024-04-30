@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Viraat Projects\\Parking_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+            "outputFile": "D:\\Viraat Projects\\VAMSCarParkingGodrejBKC\\ParkingProject170424\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\0c33037b688319eeb193e9ae1b4e8dbb\\jetified-play-services-basement-17.0.0\\res\\values-tr\\values.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\0208d086054aab3a520476529bf4cb53\\jetified-zxing-android-embedded-3.4.0\\res\\values-tr\\values-tr.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "205",
-                        "endOffsets": "452"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,116,166,313",
+                        "endColumns": "60,49,146,119",
+                        "endOffsets": "111,161,308,428"
                     },
                     "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3960",
-                        "endColumns": "205",
-                        "endOffsets": "4161"
+                        "startLines": "50,51,52,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5782,5843,5893,6040",
+                        "endColumns": "60,49,146,119",
+                        "endOffsets": "5838,5888,6035,6155"
                     }
                 },
                 {
@@ -35,23 +35,6 @@
                         "startOffsets": "5681",
                         "endColumns": "100",
                         "endOffsets": "5777"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\a90674b3d11cb5cf221dd12c1c64ad2d\\jetified-zxing-android-embedded-3.4.0\\res\\values-tr\\values-tr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,116,166,313",
-                        "endColumns": "60,49,146,119",
-                        "endOffsets": "111,161,308,428"
-                    },
-                    "to": {
-                        "startLines": "50,51,52,53",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5782,5843,5893,6040",
-                        "endColumns": "60,49,146,119",
-                        "endOffsets": "5838,5888,6035,6155"
                     }
                 },
                 {
@@ -89,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\150013176e1feeb90df65c9b8e4c7989\\jetified-firebase-messaging-23.0.0\\res\\values-tr\\values.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\754acd351459abcd83d0c590f2d78d3c\\jetified-firebase-messaging-23.0.0\\res\\values-tr\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -103,6 +86,23 @@
                         "startOffsets": "5526",
                         "endColumns": "75",
                         "endOffsets": "5597"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\2a68bcd5e7ed295416145bc774f34138\\jetified-play-services-basement-17.0.0\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "205",
+                        "endOffsets": "452"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3960",
+                        "endColumns": "205",
+                        "endOffsets": "4161"
                     }
                 }
             ]

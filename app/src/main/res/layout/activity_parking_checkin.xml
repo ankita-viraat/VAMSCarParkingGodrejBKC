@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:minHeight="@dimen/abc_action_bar_default_height_material">
+
             <ImageView
                 android:id="@+id/ivLogo_visitorEntryActivity"
                 android:layout_width="100dp"

@@ -115,7 +115,6 @@ public class Utilities {
     public static ProgressDialog pd = null;
     public static ProgressDialog pds = null;
 
-
     /**
      * Method to set font to all views
      *

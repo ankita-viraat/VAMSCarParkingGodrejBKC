@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Viraat Projects\\Parking_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "D:\\Viraat Projects\\VAMSCarParkingGodrejBKC\\ParkingProject170424\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\c3cbc4e9aa1a5b62d02d6295518d8637\\play-services-base-17.0.0\\res\\values-en-rGB\\values.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\0c33037b688319eeb193e9ae1b4e8dbb\\jetified-play-services-basement-17.0.0\\res\\values-en-rGB\\values.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\2a68bcd5e7ed295416145bc774f34138\\jetified-play-services-basement-17.0.0\\res\\values-en-rGB\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\150013176e1feeb90df65c9b8e4c7989\\jetified-firebase-messaging-23.0.0\\res\\values-en-rGB\\values.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\754acd351459abcd83d0c590f2d78d3c\\jetified-firebase-messaging-23.0.0\\res\\values-en-rGB\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

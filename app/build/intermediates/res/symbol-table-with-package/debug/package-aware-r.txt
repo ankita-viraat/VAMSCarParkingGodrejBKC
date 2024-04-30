@@ -1437,6 +1437,7 @@ drawable ic_close_white_24dp
 drawable ic_close_white_36dp
 drawable ic_close_white_48dp
 drawable ic_drop
+drawable ic_godrej_logo
 drawable ic_godrejlogo
 drawable ic_india
 drawable ic_launcher_background

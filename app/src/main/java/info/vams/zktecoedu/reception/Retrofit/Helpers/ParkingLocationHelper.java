@@ -39,7 +39,7 @@ public class ParkingLocationHelper {
         call.enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
-                Log.d("Tag", "Response Code For Masters =" + response.code());
+                Log.d("Tag", "Response Code For Masters =" + response.toString());
                 if (response.code() == 200 || response.code() == 201) {
                     if (response != null) {
                         try {

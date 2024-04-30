@@ -1,34 +1,34 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
 MERGED from [BrotherPrintLibrary.aar] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\43e95732d7c8f1a4b9b8c76c85f17b00\BrotherPrintLibrary\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e4bbd95915843741e190701074d4d9be\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\fec1f5ddb32f836b1a3be21201775d70\jetified-calligraphy-2.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f4e209e68f40b553e78a508d2425d1a2\jetified-calligraphy-2.3.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.chathuralakmal:AndroidImagePopup:1.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d33c7369966ae98c3e66fba2c9645b02\AndroidImagePopup-1.2.1\AndroidManifest.xml:2:1-17:12
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\15ff87654781cdaab408f70afc69a335\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\68afbca48e1f46ff279a954988c052d5\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ca58bca33d6ca37e148864335e2bb7d0\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\965847bd27ea8aea9b779f76d5743fb9\circleimageview-3.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cdc2208665495e5bcc1e042989219eee\firebase-core-20.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f725c4cb99149ae1f962e48b4fee3c1f\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:17:1-55:12
-MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e93a61ce0389d0598ee447cc56fe4660\jetified-library-1.2.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:17:1-58:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f4867befc128d32418a6b8c12aa9fd1b\jetified-library-1.2.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:17:1-58:12
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e6152be50e1e240c63e50a7182e4f817\firebase-crashlytics-18.2.4\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\00dd3c31d720393f9d1448ab2bb2f48d\firebase-analytics-20.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\571b51bd68476a5f8bf21b884dde6884\firebase-datatransport-18.0.0\AndroidManifest.xml:15:1-34:12
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\10fbfa411d54f704d2bba382168ea25e\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\249fd6ee3f1bc3e5f48b924359cddcda\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\af0afc52c9041cad220262d20a6881ad\play-services-vision-19.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\840f803ff03cfdd45028bf3ed4e93d6c\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
@@ -48,7 +48,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\220e1202793652dac8cf9c77e27777bb\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\03f6da36d008ad4bd070f5cfec228afa\play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d5f30a43f6b8cb040c4edce7f6d3889\play-services-measurement-base-20.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9f0e4188f27ea839ff4b564bf1a73fd2\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7c3a0e6e07e0027cc6e0d11ff601c522\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\10428d9008daf489130d5f3eb6089529\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -68,8 +68,8 @@ MERGED from [androidx.core:core:1.0.0] C:\Users\Admin\.gradle\caches\transforms-
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d052fa2d1879f256f110db56fb7824c\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\865bce4e0a2b3bbd8b04d7d470c67f01\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a0267d10cd6c5b6bcf1e735435ed9411\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\20303ea59c9dc9063aac809e9e69c241\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\158211d5e31472c11e03c651d30f32cc\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\531a349d855aaf78482d37a3e5cbbb07\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\06045625d6d151e42851153b0ad2cffd\jetified-transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35e6b1e1e360456b17011312b5ff262a\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3d5a85d59c75f2532671751284e3ea1a\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3934579bf2db1408919a5c4aa1d661fc\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -79,45 +79,45 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f298bb9bdeee89bdb3cd3391ed04899\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d80d12960384d7471e76f67f562c74dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d7f516cecda988a1cdc8c51aa8733cf\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
 	package
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
-		INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
+		INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:1-234:12
-		INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:1-234:12
+		INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:5:5-68
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:5:5-68
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:5:22-65
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:5:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:6:5-74
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:6:5-74
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:6:22-71
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:6:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.INTERNET
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:22:5-67
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e6152be50e1e240c63e50a7182e4f817\firebase-crashlytics-18.2.4\AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e6152be50e1e240c63e50a7182e4f817\firebase-crashlytics-18.2.4\AndroidManifest.xml:10:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
@@ -131,15 +131,15 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\03f6da36d008ad4bd070f5cfec228afa\play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\03f6da36d008ad4bd070f5cfec228afa\play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:9:5-79
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:22:5-79
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:23:5-79
@@ -155,54 +155,54 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\03f6da36d008ad4bd070f5cfec228afa\play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\03f6da36d008ad4bd070f5cfec228afa\play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.CAMERA
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:12:5-65
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-65
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-65
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:5-65
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:5-65
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:12:5-65
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-65
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:12:22-62
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:12:22-62
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:14:5-76
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:14:22-73
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:14:22-73
 uses-feature#android.hardware.camera.front
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:19:5-21:35
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:19:5-21:35
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
 	android:required
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:21:9-32
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:21:9-32
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:20:9-53
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:20:9-53
 uses-feature#android.hardware.camera
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:22:5-24:36
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-60
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-60
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:22:5-24:36
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-60
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-60
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:24:9-33
-		MERGED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:24:9-33
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:24:9-33
+		MERGED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:24:9-33
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:23:9-47
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:23:9-47
 application
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:26:5-232:19
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\fec1f5ddb32f836b1a3be21201775d70\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\fec1f5ddb32f836b1a3be21201775d70\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:26:5-232:19
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f4e209e68f40b553e78a508d2425d1a2\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f4e209e68f40b553e78a508d2425d1a2\jetified-calligraphy-2.3.0\AndroidManifest.xml:11:5-20
 MERGED from [com.github.chathuralakmal:AndroidImagePopup:1.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d33c7369966ae98c3e66fba2c9645b02\AndroidImagePopup-1.2.1\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.chathuralakmal:AndroidImagePopup:1.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d33c7369966ae98c3e66fba2c9645b02\AndroidImagePopup-1.2.1\AndroidManifest.xml:11:5-15:19
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-17:19
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-17:19
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-17:19
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-17:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\15ff87654781cdaab408f70afc69a335\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\15ff87654781cdaab408f70afc69a335\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\ca58bca33d6ca37e148864335e2bb7d0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -211,12 +211,12 @@ MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Admin\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\965847bd27ea8aea9b779f76d5743fb9\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cdc2208665495e5bcc1e042989219eee\firebase-core-20.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cdc2208665495e5bcc1e042989219eee\firebase-core-20.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:24:5-30:19
-MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:24:5-30:19
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:45:5-53:19
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:45:5-53:19
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:24:5-30:19
+MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:24:5-30:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:45:5-53:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:27:5-56:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e6152be50e1e240c63e50a7182e4f817\firebase-crashlytics-18.2.4\AndroidManifest.xml:14:5-22:19
@@ -225,16 +225,16 @@ MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\Admin\.grad
 MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\00dd3c31d720393f9d1448ab2bb2f48d\firebase-analytics-20.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\571b51bd68476a5f8bf21b884dde6884\firebase-datatransport-18.0.0\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\571b51bd68476a5f8bf21b884dde6884\firebase-datatransport-18.0.0\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\af0afc52c9041cad220262d20a6881ad\play-services-vision-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\af0afc52c9041cad220262d20a6881ad\play-services-vision-19.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\840f803ff03cfdd45028bf3ed4e93d6c\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
@@ -263,8 +263,8 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\220e1202793652dac8cf9c77e27777bb\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d5f30a43f6b8cb040c4edce7f6d3889\play-services-measurement-base-20.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d5f30a43f6b8cb040c4edce7f6d3889\play-services-measurement-base-20.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\596d5d1455499dfddca129867e96f8cd\core-1.0.0\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\596d5d1455499dfddca129867e96f8cd\core-1.0.0\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d052fa2d1879f256f110db56fb7824c\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
@@ -272,334 +272,334 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Ad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\596d5d1455499dfddca129867e96f8cd\core-1.0.0\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:31:9-35
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:31:9-35
 	android:label
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:30:9-41
 	android:largeHeap
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:32:9-33
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:32:9-33
 	android:icon
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:29:9-48
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:29:9-48
 	android:allowBackup
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:28:9-35
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:28:9-35
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:34:9-40
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:34:9-40
 	android:usesCleartextTraffic
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:33:9-44
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:33:9-44
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:27:9-62
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:27:9-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:36:9-38:54
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:36:9-38:54
 	android:resource
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:38:13-51
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:38:13-51
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:37:13-63
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:37:13-63
 service#info.vams.zktecoedu.reception.FCM.ParkingMessagingService
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:40:9-46:19
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:40:9-46:19
 	android:exported
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:41:13-85
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:41:13-85
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:43:13-45:29
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:43:13-45:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:44:17-78
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:44:17-78
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:44:25-75
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:44:25-75
 service#info.vams.zktecoedu.reception.Service.NotificationAreaService
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:48:9-50:40
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:48:9-50:40
 	android:exported
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:50:13-37
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:49:13-60
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:49:13-60
 activity#info.vams.zktecoedu.reception.Activity.HomeScreenActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:52:9-80:20
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:52:9-80:20
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:53:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:55:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:55:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:52:19-62
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:52:19-62
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:application/octet-stream+data:mimeType:application/pdf+data:mimeType:image/bmp+data:mimeType:image/jpeg+data:mimeType:image/jpg+data:mimeType:image/png
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:56:13-67:29
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:56:13-67:29
 action#android.intent.action.SEND
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:57:17-69
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:57:17-69
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:57:25-66
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:57:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:59:17-76
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:59:17-76
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:59:27-73
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:59:27-73
 data
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:17-55
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:17-55
 	android:mimeType
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:23-52
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:23-52
 activity#info.vams.zktecoedu.reception.Activity.LoginActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:81:9-91:20
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:81:9-91:20
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:84:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:84:13-49
 	android:configChanges
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:83:13-43
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:83:13-43
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:85:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:85:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:82:13-51
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:82:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:86:13-90:29
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:86:13-90:29
 action#android.intent.action.MAIN
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:87:17-69
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:87:17-69
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:87:25-66
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:87:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:89:17-77
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:89:17-77
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:89:27-74
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:89:27-74
 activity#info.vams.zktecoedu.reception.Activity.PreAppointmentActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:92:9-101:20
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:92:9-101:20
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:94:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:94:13-49
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:95:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:95:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:93:13-60
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:93:13-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:96:13-100:29
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:96:13-100:29
 activity#info.vams.zktecoedu.reception.Activity.VisitorEntryActivityOne
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:102:9-106:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:102:9-106:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:104:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:104:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:106:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:106:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:105:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:105:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:103:13-61
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:103:13-61
 activity#info.vams.zktecoedu.reception.Activity.CaptureActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:108:9-112:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:108:9-112:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:110:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:110:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:112:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:112:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:111:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:111:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:109:13-53
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:109:13-53
 activity#info.vams.zktecoedu.reception.Activity.VisitorCheckInActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:114:9-118:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:114:9-118:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:116:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:116:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:118:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:118:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:117:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:117:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:115:13-60
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:115:13-60
 activity#info.vams.zktecoedu.reception.Activity.CreateAppointmentActivityOne
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:120:9-124:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:120:9-124:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:122:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:122:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:124:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:124:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:123:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:123:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:121:13-66
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:121:13-66
 activity#info.vams.zktecoedu.reception.Activity.AdditionalVisitorActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:125:9-128:59
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:125:9-128:59
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:126:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:126:13-49
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:128:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:128:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:127:13-63
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:127:13-63
 activity#info.vams.zktecoedu.reception.Activity.AdditionalVisitorList
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:129:9-132:59
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:129:9-132:59
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:130:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:130:13-49
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:132:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:132:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:131:13-59
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:131:13-59
 service#info.vams.zktecoedu.reception.Service.AppStatusService
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:134:9-136:44
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:134:9-136:44
 	android:stopWithTask
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:136:13-41
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:136:13-41
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:135:13-53
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:135:13-53
 activity#info.vams.zktecoedu.reception.Activity.ForgotPasswordActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:138:9-141:59
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:138:9-141:59
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:139:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:139:13-49
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:141:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:141:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:140:13-60
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:140:13-60
 activity#info.vams.zktecoedu.reception.Activity.LogoutListActvity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:142:9-145:59
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:142:9-145:59
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:143:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:143:13-49
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:145:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:145:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:144:13-55
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:144:13-55
 activity#info.vams.zktecoedu.reception.Activity.BuildingLevelVisitiorLogoutActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:146:9-149:59
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:146:9-149:59
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:147:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:147:13-49
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:149:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:149:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:148:13-73
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:148:13-73
 activity#info.vams.zktecoedu.reception.Activity.PassQueueActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:150:9-153:59
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:150:9-153:59
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:151:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:151:13-49
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:153:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:153:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:152:13-55
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:152:13-55
 activity#info.vams.zktecoedu.reception.Activity.ChildPickupActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:154:9-158:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:154:9-158:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:156:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:156:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:158:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:158:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:157:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:157:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:155:13-57
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:155:13-57
 activity#info.vams.zktecoedu.reception.Activity.ReAuthenticateActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:160:9-164:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:160:9-164:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:162:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:162:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:164:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:164:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:163:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:163:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:161:13-60
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:161:13-60
 meta-data#io.fabric.ApiKey
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:166:9-168:72
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:166:9-168:72
 	android:value
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:168:13-69
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:168:13-69
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:167:13-44
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:167:13-44
 activity#info.vams.zktecoedu.reception.Activity.Activity_Settings
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:169:9-175:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:169:9-175:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:170:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:170:13-49
 	android:label
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:173:13-50
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:173:13-50
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:175:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:175:13-54
 	android:configChanges
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:172:13-131
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:172:13-131
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:174:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:174:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:171:13-55
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:171:13-55
 activity#info.vams.zktecoedu.reception.Activity.Activity_NetPrinterList
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:176:9-181:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:176:9-181:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:177:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:177:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:181:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:181:13-54
 	android:configChanges
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:179:13-131
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:179:13-131
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:180:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:180:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:178:13-61
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:178:13-61
 activity#info.vams.zktecoedu.reception.Activity.Activity_PrintPdf
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:182:9-188:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:182:9-188:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:183:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:183:13-49
 	android:label
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:186:13-51
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:186:13-51
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:188:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:188:13-54
 	android:configChanges
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:185:13-131
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:185:13-131
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:187:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:187:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:184:13-55
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:184:13-55
 activity#info.vams.zktecoedu.reception.Activity.Activity_SaveFile
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:189:9-195:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:189:9-195:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:190:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:190:13-49
 	android:label
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:193:13-51
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:193:13-51
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:195:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:195:13-54
 	android:configChanges
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:192:13-131
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:192:13-131
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:194:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:194:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:191:13-55
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:191:13-55
 activity#info.vams.zktecoedu.reception.Activity.Parking.ParkingCheckInActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:196:9-200:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:196:9-200:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:198:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:198:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:200:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:200:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:199:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:199:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:197:13-68
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:197:13-68
 activity#info.vams.zktecoedu.reception.Activity.Parking.ParkingCheckOutActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:202:9-206:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:202:9-206:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:204:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:204:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:206:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:206:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:205:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:205:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:203:13-69
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:203:13-69
 activity#info.vams.zktecoedu.reception.Activity.Parking.ParkingPhotoActivity
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:208:9-212:57
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:208:9-212:57
 	android:screenOrientation
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:210:13-49
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:210:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:212:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:212:13-54
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:211:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:211:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:209:13-66
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:209:13-66
 activity#info.vams.zktecoedu.reception.Activity.Activity_FileList
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:216:9-227:20
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:216:9-227:20
 	android:label
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:219:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:219:13-56
 	android:windowSoftInputMode
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:221:13-54
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:221:13-54
 	android:configChanges
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:218:13-131
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:218:13-131
 	android:theme
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:220:13-56
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:220:13-56
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:217:13-55
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:217:13-55
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:222:13-226:29
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:222:13-226:29
 action#android.intent.action.VIEW
-ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:223:17-69
+ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:223:17-69
 	android:name
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:223:25-66
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:223:25-66
 uses-sdk
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
 MERGED from [BrotherPrintLibrary.aar] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\43e95732d7c8f1a4b9b8c76c85f17b00\BrotherPrintLibrary\AndroidManifest.xml:7:5-9:41
 MERGED from [BrotherPrintLibrary.aar] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\43e95732d7c8f1a4b9b8c76c85f17b00\BrotherPrintLibrary\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e4bbd95915843741e190701074d4d9be\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e4bbd95915843741e190701074d4d9be\multidex-2.0.0\AndroidManifest.xml:20:5-43
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\fec1f5ddb32f836b1a3be21201775d70\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
-MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\fec1f5ddb32f836b1a3be21201775d70\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f4e209e68f40b553e78a508d2425d1a2\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f4e209e68f40b553e78a508d2425d1a2\jetified-calligraphy-2.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.chathuralakmal:AndroidImagePopup:1.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d33c7369966ae98c3e66fba2c9645b02\AndroidImagePopup-1.2.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.chathuralakmal:AndroidImagePopup:1.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d33c7369966ae98c3e66fba2c9645b02\AndroidImagePopup-1.2.1\AndroidManifest.xml:7:5-9:41
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\15ff87654781cdaab408f70afc69a335\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\15ff87654781cdaab408f70afc69a335\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\68afbca48e1f46ff279a954988c052d5\appcompat-1.0.0\AndroidManifest.xml:20:5-44
@@ -610,16 +610,16 @@ MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Admin\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\965847bd27ea8aea9b779f76d5743fb9\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cdc2208665495e5bcc1e042989219eee\firebase-core-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\cdc2208665495e5bcc1e042989219eee\firebase-core-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f725c4cb99149ae1f962e48b4fee3c1f\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f725c4cb99149ae1f962e48b4fee3c1f\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:19:5-43
-MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:19:5-43
-MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e93a61ce0389d0598ee447cc56fe4660\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e93a61ce0389d0598ee447cc56fe4660\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:19:5-43
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f4867befc128d32418a6b8c12aa9fd1b\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f4867befc128d32418a6b8c12aa9fd1b\jetified-library-1.2.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e6152be50e1e240c63e50a7182e4f817\firebase-crashlytics-18.2.4\AndroidManifest.xml:6:5-8:41
@@ -628,8 +628,8 @@ MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\Admin\.grad
 MERGED from [com.google.firebase:firebase-analytics:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\00dd3c31d720393f9d1448ab2bb2f48d\firebase-analytics-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\571b51bd68476a5f8bf21b884dde6884\firebase-datatransport-18.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\571b51bd68476a5f8bf21b884dde6884\firebase-datatransport-18.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\10fbfa411d54f704d2bba382168ea25e\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
@@ -638,8 +638,8 @@ MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\249fd6ee3f1bc3e5f48b924359cddcda\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\249fd6ee3f1bc3e5f48b924359cddcda\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-vision:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\af0afc52c9041cad220262d20a6881ad\play-services-vision-19.0.0\AndroidManifest.xml:5:5-44
@@ -678,8 +678,8 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\03f6da36d008ad4bd070f5cfec228afa\play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d5f30a43f6b8cb040c4edce7f6d3889\play-services-measurement-base-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d5f30a43f6b8cb040c4edce7f6d3889\play-services-measurement-base-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9f0e4188f27ea839ff4b564bf1a73fd2\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9f0e4188f27ea839ff4b564bf1a73fd2\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7c3a0e6e07e0027cc6e0d11ff601c522\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
@@ -718,10 +718,10 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\865bce4e0a2b3bbd8b04d7d470c67f01\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a0267d10cd6c5b6bcf1e735435ed9411\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a0267d10cd6c5b6bcf1e735435ed9411\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\20303ea59c9dc9063aac809e9e69c241\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\20303ea59c9dc9063aac809e9e69c241\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\158211d5e31472c11e03c651d30f32cc\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\158211d5e31472c11e03c651d30f32cc\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\531a349d855aaf78482d37a3e5cbbb07\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\531a349d855aaf78482d37a3e5cbbb07\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\06045625d6d151e42851153b0ad2cffd\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\06045625d6d151e42851153b0ad2cffd\jetified-transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35e6b1e1e360456b17011312b5ff262a\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\35e6b1e1e360456b17011312b5ff262a\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3d5a85d59c75f2532671751284e3ea1a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -740,21 +740,21 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Admin\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d80d12960384d7471e76f67f562c74dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d7f516cecda988a1cdc8c51aa8733cf\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d7f516cecda988a1cdc8c51aa8733cf\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
+INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
 		ADDED from [BrotherPrintLibrary.aar] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\43e95732d7c8f1a4b9b8c76c85f17b00\BrotherPrintLibrary\AndroidManifest.xml:9:9-38
 	android:minSdkVersion
-		INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
-		ADDED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
+		ADDED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
 activity#com.notbytes.barcode_reader.BarcodeReaderActivity
-ADDED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-86
+ADDED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-86
 	android:name
-		ADDED from [:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:19-83
+		ADDED from [:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:19-83
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:25:9-29:19
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
-MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
+ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:25:9-29:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:49:9-55:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.4] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\e6152be50e1e240c63e50a7182e4f817\firebase-crashlytics-18.2.4\AndroidManifest.xml:15:9-21:19
@@ -765,62 +765,62 @@ MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:25:18-89
+		ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:25:18-89
 meta-data#com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar
-ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:26:13-28:85
+ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:26:13-28:85
 	android:value
-		ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:28:17-82
+		ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:28:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:27:17-121
+		ADDED from [com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:27:17-121
 uses-feature#android.hardware.camera.autofocus
-ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
 uses-feature#android.hardware.camera.flash
-ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
 uses-feature#android.hardware.screen.landscape
-ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
 uses-feature#android.hardware.wifi
-ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
 	android:screenOrientation
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
 	android:clearTaskOnLaunch
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
 	android:stateNotNeeded
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
 	android:windowSoftInputMode
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
 	android:theme
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\f22db840ce678567c134c9dd08b3db2e\play-services-measurement-api-20.0.0\AndroidManifest.xml:24:5-68
@@ -834,43 +834,43 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\03f6da36d008ad4bd070f5cfec228afa\play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\03f6da36d008ad4bd070f5cfec228afa\play-services-measurement-sdk-api-20.0.0\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:22-65
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\589eb6774cad5afa4e9331574ab092d3\play-services-cloud-messaging-17.0.0\AndroidManifest.xml:11:5-82
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\589eb6774cad5afa4e9331574ab092d3\play-services-cloud-messaging-17.0.0\AndroidManifest.xml:11:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
 meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
-ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
 	android:value
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+		ADDED from [com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
 ADDED from [com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
 	android:value
@@ -890,19 +890,19 @@ ADDED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.g
 	android:name
 		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\571b51bd68476a5f8bf21b884dde6884\firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
 service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:36:9-38:40
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:36:9-38:40
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
 meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
 	android:value
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
 service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
 ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
 	android:exported
@@ -930,17 +930,17 @@ ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.g
 	android:name
 		ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\8f977864e829d6fc1ecbd7e1ec810f56\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c3cbc4e9aa1a5b62d02d6295518d8637\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -982,8 +982,8 @@ ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Ad
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c55bd3cd8b1763255e8770e1fbb85218\play-services-measurement-20.0.0\AndroidManifest.xml:40:13-87
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

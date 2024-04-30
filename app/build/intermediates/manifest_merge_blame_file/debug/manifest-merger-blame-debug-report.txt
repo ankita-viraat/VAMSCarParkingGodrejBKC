@@ -6,177 +6,177 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml
+8-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
 9-->[BrotherPrintLibrary.aar] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\43e95732d7c8f1a4b9b8c76c85f17b00\BrotherPrintLibrary\AndroidManifest.xml:9:9-38
 10
 11    <uses-permission android:name="android.permission.BLUETOOTH" />
-11-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:5:5-68
-11-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:5:22-65
+11-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:5:5-68
+11-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:5:22-65
 12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-12-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:6:5-74
-12-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:6:22-71
+12-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:6:5-74
+12-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:6:22-71
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:7:5-81
-13-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:7:22-78
+13-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:7:22-78
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:8:5-67
-14-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:8:22-64
+14-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:8:5-67
+14-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:8:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:9:5-79
-15-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:9:22-76
+15-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:9:22-76
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:10:5-81
-16-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:10:22-78
+16-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:10:22-78
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:11:5-80
-17-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:11:22-77
+17-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:11:5-80
+17-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:11:22-77
 18    <uses-permission android:name="android.permission.CAMERA" />
-18-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:12:5-65
-18-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:12:22-62
+18-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:12:5-65
+18-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:12:22-62
 19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-19-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:14:5-76
-19-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:14:22-73
+19-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:14:5-76
+19-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:14:22-73
 20
 21    <!-- Include following permission if you want to cache images on SD card -->
 22
 23    <uses-feature
-23-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:19:5-21:35
+23-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:19:5-21:35
 24        android:name="android.hardware.camera.front"
-24-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:20:9-53
+24-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:20:9-53
 25        android:required="true" />
-25-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:21:9-32
+25-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:21:9-32
 26    <uses-feature
-26-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:22:5-24:36
+26-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:22:5-24:36
 27        android:name="android.hardware.camera"
-27-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:23:9-47
+27-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:23:9-47
 28        android:required="true" />
-28-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:24:9-33
+28-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:24:9-33
 29
 30    <!-- TODO replace above two with next line after Android 4.2 -->
 31    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 32    <uses-feature
-32-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
+32-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
 33        android:name="android.hardware.camera.autofocus"
-33-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
+33-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
 34        android:required="false" />
-34-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
+34-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
 35    <uses-feature
-35-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
+35-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
 36        android:name="android.hardware.camera.flash"
-36-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
+36-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
 37        android:required="false" />
-37-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
+37-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
 38    <uses-feature
-38-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
+38-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
 39        android:name="android.hardware.screen.landscape"
-39-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
+39-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
 40        android:required="false" />
-40-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
+40-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
 41    <uses-feature
-41-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
+41-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
 42        android:name="android.hardware.wifi"
-42-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
+42-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
 43        android:required="false" />
-43-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
+43-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
 44
 45    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-45-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
-45-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:22-65
+45-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:5-68
+45-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:23:22-65
 46    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-46-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
-46-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+46-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+46-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
 47    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 47-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c55bd3cd8b1763255e8770e1fbb85218\play-services-measurement-20.0.0\AndroidManifest.xml:26:5-110
 47-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c55bd3cd8b1763255e8770e1fbb85218\play-services-measurement-20.0.0\AndroidManifest.xml:26:22-107
 48
 49    <application
-49-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:26:5-232:19
+49-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:26:5-232:19
 50        android:name="info.vams.zktecoedu.reception.ApplicationFont.CustomApplicationFont"
-50-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:27:9-62
+50-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:27:9-62
 51        android:allowBackup="true"
-51-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:28:9-35
+51-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:28:9-35
 52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 52-->[androidx.core:core:1.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\596d5d1455499dfddca129867e96f8cd\core-1.0.0\AndroidManifest.xml:22:18-86
 53        android:debuggable="true"
 54        android:icon="@mipmap/ic_launcher_vams"
-54-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:29:9-48
+54-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:29:9-48
 55        android:label="@string/app_name"
-55-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:30:9-41
+55-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:30:9-41
 56        android:largeHeap="true"
-56-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:32:9-33
+56-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:32:9-33
 57        android:supportsRtl="true"
-57-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:31:9-35
+57-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:31:9-35
 58        android:testOnly="true"
 59        android:theme="@style/AppTheme"
-59-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:34:9-40
+59-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:34:9-40
 60        android:usesCleartextTraffic="true" >
-60-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:33:9-44
+60-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:33:9-44
 61        <meta-data
-61-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:36:9-38:54
+61-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:36:9-38:54
 62            android:name="android.support.FILE_PROVIDER_PATHS"
-62-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:37:13-63
+62-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:37:13-63
 63            android:resource="@xml/provider_paths" />
-63-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:38:13-51
+63-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:38:13-51
 64
 65        <service
-65-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:40:9-46:19
+65-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:40:9-46:19
 66            android:name="info.vams.zktecoedu.reception.FCM.ParkingMessagingService"
-66-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:41:13-85
+66-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:41:13-85
 67            android:exported="false" >
-67-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:42:13-37
+67-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:42:13-37
 68            <intent-filter>
-68-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:43:13-45:29
+68-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:43:13-45:29
 69                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-69-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:44:17-78
-69-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:44:25-75
+69-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:44:17-78
+69-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:44:25-75
 70            </intent-filter>
 71        </service>
 72        <service
-72-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:48:9-50:40
+72-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:48:9-50:40
 73            android:name="info.vams.zktecoedu.reception.Service.NotificationAreaService"
-73-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:49:13-60
+73-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:49:13-60
 74            android:exported="false" />
-74-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:50:13-37
+74-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:50:13-37
 75
 76        <activity
-76-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:52:9-80:20
+76-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:52:9-80:20
 77            android:name="info.vams.zktecoedu.reception.Activity.HomeScreenActivity"
-77-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:52:19-62
+77-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:52:19-62
 78            android:screenOrientation="portrait"
-78-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:53:13-49
+78-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:53:13-49
 79            android:theme="@style/AppTheme.NoActionBar"
-79-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:54:13-56
+79-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:54:13-56
 80            android:windowSoftInputMode="stateHidden" >
-80-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:55:13-54
+80-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:55:13-54
 81            <intent-filter>
-81-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:56:13-67:29
+81-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:56:13-67:29
 82                <action android:name="android.intent.action.SEND" />
-82-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:57:17-69
-82-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:57:25-66
+82-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:57:17-69
+82-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:57:25-66
 83
 84                <category android:name="android.intent.category.DEFAULT" />
-84-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:59:17-76
-84-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:59:27-73
+84-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:59:17-76
+84-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:59:27-73
 85
 86                <data android:mimeType="image/jpeg" />
-86-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:17-55
-86-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:23-52
+86-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:17-55
+86-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:23-52
 87                <data android:mimeType="image/jpg" />
-87-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:17-55
-87-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:23-52
+87-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:17-55
+87-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:23-52
 88                <data android:mimeType="image/bmp" />
-88-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:17-55
-88-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:23-52
+88-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:17-55
+88-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:23-52
 89                <data android:mimeType="image/png" />
-89-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:17-55
-89-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:23-52
+89-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:17-55
+89-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:23-52
 90                <data android:mimeType="application/pdf" />
-90-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:17-55
-90-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:23-52
+90-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:17-55
+90-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:23-52
 91                <data android:mimeType="application/octet-stream" />
-91-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:17-55
-91-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:61:23-52
+91-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:17-55
+91-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:61:23-52
 92            </intent-filter>
 93            <!--
 94            <intent-filter>
@@ -194,300 +194,300 @@
 106            -->
 107        </activity>
 108        <activity
-108-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:81:9-91:20
+108-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:81:9-91:20
 109            android:name="info.vams.zktecoedu.reception.Activity.LoginActivity"
-109-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:82:13-51
+109-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:82:13-51
 110            android:configChanges="locale"
-110-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:83:13-43
+110-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:83:13-43
 111            android:screenOrientation="portrait"
-111-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:84:13-49
+111-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:84:13-49
 112            android:theme="@style/AppTheme.NoActionBar" >
-112-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:85:13-56
+112-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:85:13-56
 113            <intent-filter>
-113-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:86:13-90:29
+113-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:86:13-90:29
 114                <action android:name="android.intent.action.MAIN" />
-114-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:87:17-69
-114-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:87:25-66
+114-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:87:17-69
+114-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:87:25-66
 115
 116                <category android:name="android.intent.category.LAUNCHER" />
-116-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:89:17-77
-116-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:89:27-74
+116-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:89:17-77
+116-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:89:27-74
 117            </intent-filter>
 118        </activity>
 119        <activity
-119-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:92:9-101:20
+119-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:92:9-101:20
 120            android:name="info.vams.zktecoedu.reception.Activity.PreAppointmentActivity"
-120-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:93:13-60
+120-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:93:13-60
 121            android:screenOrientation="portrait"
-121-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:94:13-49
+121-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:94:13-49
 122            android:theme="@style/AppTheme.NoActionBar" >
-122-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:95:13-56
+122-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:95:13-56
 123            <intent-filter>
-123-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:96:13-100:29
+123-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:96:13-100:29
 124                <action android:name="android.intent.action.MAIN" />
-124-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:87:17-69
-124-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:87:25-66
+124-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:87:17-69
+124-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:87:25-66
 125
 126                <category android:name="android.intent.category.DEFAULT" />
-126-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:59:17-76
-126-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:59:27-73
+126-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:59:17-76
+126-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:59:27-73
 127            </intent-filter>
 128        </activity>
 129        <activity
-129-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:102:9-106:57
+129-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:102:9-106:57
 130            android:name="info.vams.zktecoedu.reception.Activity.VisitorEntryActivityOne"
-130-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:103:13-61
+130-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:103:13-61
 131            android:screenOrientation="portrait"
-131-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:104:13-49
+131-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:104:13-49
 132            android:theme="@style/AppTheme.NoActionBar"
-132-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:105:13-56
+132-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:105:13-56
 133            android:windowSoftInputMode="stateHidden" />
-133-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:106:13-54
+133-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:106:13-54
 134        <activity
-134-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:108:9-112:57
+134-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:108:9-112:57
 135            android:name="info.vams.zktecoedu.reception.Activity.CaptureActivity"
-135-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:109:13-53
+135-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:109:13-53
 136            android:screenOrientation="portrait"
-136-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:110:13-49
+136-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:110:13-49
 137            android:theme="@style/AppTheme.NoActionBar"
-137-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:111:13-56
+137-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:111:13-56
 138            android:windowSoftInputMode="stateHidden" />
-138-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:112:13-54
+138-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:112:13-54
 139        <activity
-139-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:114:9-118:57
+139-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:114:9-118:57
 140            android:name="info.vams.zktecoedu.reception.Activity.VisitorCheckInActivity"
-140-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:115:13-60
+140-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:115:13-60
 141            android:screenOrientation="portrait"
-141-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:116:13-49
+141-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:116:13-49
 142            android:theme="@style/AppTheme.NoActionBar"
-142-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:117:13-56
+142-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:117:13-56
 143            android:windowSoftInputMode="stateHidden" />
-143-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:118:13-54
+143-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:118:13-54
 144        <activity
-144-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:120:9-124:57
+144-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:120:9-124:57
 145            android:name="info.vams.zktecoedu.reception.Activity.CreateAppointmentActivityOne"
-145-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:121:13-66
+145-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:121:13-66
 146            android:screenOrientation="portrait"
-146-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:122:13-49
+146-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:122:13-49
 147            android:theme="@style/AppTheme.NoActionBar"
-147-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:123:13-56
+147-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:123:13-56
 148            android:windowSoftInputMode="stateHidden" />
-148-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:124:13-54
+148-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:124:13-54
 149        <activity
-149-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:125:9-128:59
+149-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:125:9-128:59
 150            android:name="info.vams.zktecoedu.reception.Activity.AdditionalVisitorActivity"
-150-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:127:13-63
+150-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:127:13-63
 151            android:screenOrientation="portrait"
-151-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:126:13-49
+151-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:126:13-49
 152            android:theme="@style/AppTheme.NoActionBar" />
-152-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:128:13-56
+152-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:128:13-56
 153        <activity
-153-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:129:9-132:59
+153-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:129:9-132:59
 154            android:name="info.vams.zktecoedu.reception.Activity.AdditionalVisitorList"
-154-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:131:13-59
+154-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:131:13-59
 155            android:screenOrientation="portrait"
-155-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:130:13-49
+155-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:130:13-49
 156            android:theme="@style/AppTheme.NoActionBar" />
-156-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:132:13-56
+156-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:132:13-56
 157
 158        <service
-158-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:134:9-136:44
+158-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:134:9-136:44
 159            android:name="info.vams.zktecoedu.reception.Service.AppStatusService"
-159-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:135:13-53
+159-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:135:13-53
 160            android:stopWithTask="false" />
-160-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:136:13-41
+160-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:136:13-41
 161
 162        <activity
-162-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:138:9-141:59
+162-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:138:9-141:59
 163            android:name="info.vams.zktecoedu.reception.Activity.ForgotPasswordActivity"
-163-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:140:13-60
+163-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:140:13-60
 164            android:screenOrientation="portrait"
-164-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:139:13-49
+164-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:139:13-49
 165            android:theme="@style/AppTheme.NoActionBar" />
-165-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:141:13-56
+165-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:141:13-56
 166        <activity
-166-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:142:9-145:59
+166-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:142:9-145:59
 167            android:name="info.vams.zktecoedu.reception.Activity.LogoutListActvity"
-167-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:144:13-55
+167-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:144:13-55
 168            android:screenOrientation="portrait"
-168-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:143:13-49
+168-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:143:13-49
 169            android:theme="@style/AppTheme.NoActionBar" />
-169-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:145:13-56
+169-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:145:13-56
 170        <activity
-170-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:146:9-149:59
+170-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:146:9-149:59
 171            android:name="info.vams.zktecoedu.reception.Activity.BuildingLevelVisitiorLogoutActivity"
-171-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:148:13-73
+171-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:148:13-73
 172            android:screenOrientation="portrait"
-172-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:147:13-49
+172-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:147:13-49
 173            android:theme="@style/AppTheme.NoActionBar" />
-173-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:149:13-56
+173-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:149:13-56
 174        <activity
-174-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:150:9-153:59
+174-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:150:9-153:59
 175            android:name="info.vams.zktecoedu.reception.Activity.PassQueueActivity"
-175-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:152:13-55
+175-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:152:13-55
 176            android:screenOrientation="portrait"
-176-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:151:13-49
+176-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:151:13-49
 177            android:theme="@style/AppTheme.NoActionBar" />
-177-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:153:13-56
+177-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:153:13-56
 178        <activity
-178-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:154:9-158:57
+178-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:154:9-158:57
 179            android:name="info.vams.zktecoedu.reception.Activity.ChildPickupActivity"
-179-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:155:13-57
+179-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:155:13-57
 180            android:screenOrientation="portrait"
-180-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:156:13-49
+180-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:156:13-49
 181            android:theme="@style/AppTheme.NoActionBar"
-181-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:157:13-56
+181-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:157:13-56
 182            android:windowSoftInputMode="stateHidden" />
-182-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:158:13-54
+182-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:158:13-54
 183        <activity
-183-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:160:9-164:57
+183-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:160:9-164:57
 184            android:name="info.vams.zktecoedu.reception.Activity.ReAuthenticateActivity"
-184-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:161:13-60
+184-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:161:13-60
 185            android:screenOrientation="portrait"
-185-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:162:13-49
+185-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:162:13-49
 186            android:theme="@style/AppTheme.NoActionBar"
-186-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:163:13-56
+186-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:163:13-56
 187            android:windowSoftInputMode="stateHidden" />
-187-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:164:13-54
+187-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:164:13-54
 188
 189        <meta-data
-189-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:166:9-168:72
+189-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:166:9-168:72
 190            android:name="io.fabric.ApiKey"
-190-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:167:13-44
+190-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:167:13-44
 191            android:value="206f63e3d36e3caa137585e12f8e8075ba13da46" />
-191-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:168:13-69
+191-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:168:13-69
 192
 193        <activity
-193-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:169:9-175:57
+193-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:169:9-175:57
 194            android:name="info.vams.zktecoedu.reception.Activity.Activity_Settings"
-194-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:171:13-55
+194-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:171:13-55
 195            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
-195-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:172:13-131
+195-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:172:13-131
 196            android:label="@string/menu_settings"
-196-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:173:13-50
+196-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:173:13-50
 197            android:screenOrientation="portrait"
-197-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:170:13-49
+197-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:170:13-49
 198            android:theme="@style/AppTheme.NoActionBar"
-198-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:174:13-56
+198-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:174:13-56
 199            android:windowSoftInputMode="stateHidden" />
-199-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:175:13-54
+199-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:175:13-54
 200        <activity
-200-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:176:9-181:57
+200-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:176:9-181:57
 201            android:name="info.vams.zktecoedu.reception.Activity.Activity_NetPrinterList"
-201-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:178:13-61
+201-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:178:13-61
 202            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
-202-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:179:13-131
+202-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:179:13-131
 203            android:screenOrientation="portrait"
-203-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:177:13-49
+203-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:177:13-49
 204            android:theme="@style/AppTheme.NoActionBar"
-204-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:180:13-56
+204-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:180:13-56
 205            android:windowSoftInputMode="stateHidden" />
-205-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:181:13-54
+205-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:181:13-54
 206        <activity
-206-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:182:9-188:57
+206-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:182:9-188:57
 207            android:name="info.vams.zktecoedu.reception.Activity.Activity_PrintPdf"
-207-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:184:13-55
+207-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:184:13-55
 208            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
-208-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:185:13-131
+208-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:185:13-131
 209            android:label="@string/text_print_pdf"
-209-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:186:13-51
+209-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:186:13-51
 210            android:screenOrientation="portrait"
-210-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:183:13-49
+210-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:183:13-49
 211            android:theme="@style/AppTheme.NoActionBar"
-211-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:187:13-56
+211-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:187:13-56
 212            android:windowSoftInputMode="stateHidden" />
-212-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:188:13-54
+212-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:188:13-54
 213        <activity
-213-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:189:9-195:57
+213-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:189:9-195:57
 214            android:name="info.vams.zktecoedu.reception.Activity.Activity_SaveFile"
-214-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:191:13-55
+214-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:191:13-55
 215            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
-215-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:192:13-131
+215-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:192:13-131
 216            android:label="@string/text_print_pdf"
-216-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:193:13-51
+216-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:193:13-51
 217            android:screenOrientation="portrait"
-217-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:190:13-49
+217-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:190:13-49
 218            android:theme="@style/AppTheme.NoActionBar"
-218-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:194:13-56
+218-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:194:13-56
 219            android:windowSoftInputMode="stateHidden" />
-219-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:195:13-54
+219-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:195:13-54
 220        <activity
-220-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:196:9-200:57
+220-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:196:9-200:57
 221            android:name="info.vams.zktecoedu.reception.Activity.Parking.ParkingCheckInActivity"
-221-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:197:13-68
+221-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:197:13-68
 222            android:screenOrientation="portrait"
-222-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:198:13-49
+222-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:198:13-49
 223            android:theme="@style/AppTheme.NoActionBar"
-223-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:199:13-56
+223-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:199:13-56
 224            android:windowSoftInputMode="stateHidden" />
-224-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:200:13-54
+224-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:200:13-54
 225        <activity
-225-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:202:9-206:57
+225-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:202:9-206:57
 226            android:name="info.vams.zktecoedu.reception.Activity.Parking.ParkingCheckOutActivity"
-226-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:203:13-69
+226-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:203:13-69
 227            android:screenOrientation="portrait"
-227-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:204:13-49
+227-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:204:13-49
 228            android:theme="@style/AppTheme.NoActionBar"
-228-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:205:13-56
+228-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:205:13-56
 229            android:windowSoftInputMode="stateHidden" />
-229-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:206:13-54
+229-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:206:13-54
 230        <activity
-230-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:208:9-212:57
+230-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:208:9-212:57
 231            android:name="info.vams.zktecoedu.reception.Activity.Parking.ParkingPhotoActivity"
-231-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:209:13-66
+231-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:209:13-66
 232            android:screenOrientation="portrait"
-232-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:210:13-49
+232-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:210:13-49
 233            android:theme="@style/AppTheme.NoActionBar"
-233-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:211:13-56
+233-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:211:13-56
 234            android:windowSoftInputMode="stateHidden" />
-234-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:212:13-54
+234-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:212:13-54
 235        <activity
-235-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:216:9-227:20
+235-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:216:9-227:20
 236            android:name="info.vams.zktecoedu.reception.Activity.Activity_FileList"
-236-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:217:13-55
+236-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:217:13-55
 237            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale|screenSize"
-237-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:218:13-131
+237-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:218:13-131
 238            android:label="@string/file_explorer_title"
-238-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:219:13-56
+238-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:219:13-56
 239            android:theme="@style/AppTheme.NoActionBar"
-239-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:220:13-56
+239-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:220:13-56
 240            android:windowSoftInputMode="stateHidden" >
-240-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:221:13-54
+240-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:221:13-54
 241            <intent-filter>
-241-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:222:13-226:29
+241-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:222:13-226:29
 242                <action android:name="android.intent.action.VIEW" />
-242-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:223:17-69
-242-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:223:25-66
+242-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:223:17-69
+242-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:223:25-66
 243
 244                <category android:name="android.intent.category.DEFAULT" />
-244-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:59:17-76
-244-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:59:27-73
+244-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:59:17-76
+244-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:59:27-73
 245            </intent-filter>
 246        </activity>
 247        <activity android:name="com.notbytes.barcode_reader.BarcodeReaderActivity" />
-247-->[:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-86
-247-->[:barcode-reader] D:\Viraat Projects\Parking_Project\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:19-83
+247-->[:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-86
+247-->[:barcode-reader] D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\barcode-reader\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:19-83
 248
 249        <service
-249-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:25:9-29:19
+249-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:25:9-29:19
 250            android:name="com.google.firebase.components.ComponentDiscoveryService"
-250-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:25:18-89
+250-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:25:18-89
 251            android:directBootAware="true"
-251-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+251-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 252            android:exported="false" >
-252-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
+252-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:51:13-37
 253            <meta-data
-253-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:26:13-28:85
+253-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:26:13-28:85
 254                android:name="com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar"
-254-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:27:17-121
+254-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:27:17-121
 255                android:value="com.google.firebase.components.ComponentRegistrar" />
-255-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5fe956fda5d4d7022d54342de20eb327\jetified-firebase-crash-16.2.1\AndroidManifest.xml:28:17-82
+255-->[com.google.firebase:firebase-crash:16.2.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a9ca44d7dd10d1e82bd0adc4043b7bf\jetified-firebase-crash-16.2.1\AndroidManifest.xml:28:17-82
 256            <meta-data
-256-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+256-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
 257                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-257-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+257-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
 258                android:value="com.google.firebase.components.ComponentRegistrar" />
-258-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+258-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
 259            <meta-data
 259-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3314fd46e49d4c7b3d02634da811d057\firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
 260                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
@@ -521,33 +521,33 @@
 274        </service>
 275
 276        <activity
-276-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
+276-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
 277            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-277-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
+277-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
 278            android:clearTaskOnLaunch="true"
-278-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
+278-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
 279            android:screenOrientation="sensorLandscape"
-279-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
+279-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
 280            android:stateNotNeeded="true"
-280-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
+280-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
 281            android:theme="@style/zxing_CaptureTheme"
-281-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
+281-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
 282            android:windowSoftInputMode="stateAlwaysHidden" />
-282-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\d53d77b22433bc1a3ea4ca0d473e6809\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
+282-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0208d086054aab3a520476529bf4cb53\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
 283
 284        <receiver
-284-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+284-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
 285            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-285-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+285-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
 286            android:exported="true"
-286-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+286-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
 287            android:permission="com.google.android.c2dm.permission.SEND" >
-287-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+287-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
 288            <intent-filter>
-288-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
+288-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
 289                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-289-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
-289-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
+289-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
+289-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
 290            </intent-filter>
 291        </receiver>
 292        <!--
@@ -555,32 +555,32 @@
 294             but set to not exported to explicitly avoid allowing another app to call it.
 295        -->
 296        <service
-296-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+296-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
 297            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-297-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+297-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
 298            android:directBootAware="true"
-298-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+298-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
 299            android:exported="false" >
-299-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4e790eb1144e8abd4436ca813a9cbb20\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+299-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\754acd351459abcd83d0c590f2d78d3c\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
 300            <intent-filter android:priority="-500" >
-300-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:43:13-45:29
+300-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:43:13-45:29
 301                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-301-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:44:17-78
-301-->D:\Viraat Projects\Parking_Project\app\src\main\AndroidManifest.xml:44:25-75
+301-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:44:17-78
+301-->D:\Viraat Projects\VAMSCarParkingGodrejBKC\ParkingProject170424\app\src\main\AndroidManifest.xml:44:25-75
 302            </intent-filter>
 303        </service>
 304        <service
-304-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+304-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
 305            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-305-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+305-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
 306            android:exported="false" >
-306-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+306-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
 307            <meta-data
-307-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+307-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
 308                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-308-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+308-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
 309                android:value="cct" />
-309-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\662e5c8c4c3f6d35c6b3f9638319d7bb\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+309-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\57c145e853c5d250dcfed3e47b4af45d\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
 310        </service>
 311        <service
 311-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
@@ -600,17 +600,17 @@
 319-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\044a829810d0f935ca4f73e95be98929\transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
 320
 321        <provider
-321-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+321-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 322            android:name="com.google.firebase.provider.FirebaseInitProvider"
-322-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+322-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
 323            android:authorities="info.vams.zktecoedu.reception.firebaseinitprovider"
-323-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+323-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 324            android:directBootAware="true"
-324-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+324-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
 325            android:exported="false"
-325-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+325-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
 326            android:initOrder="100" />
-326-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5a185d04266d000fc4bf5655ff17a2d0\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+326-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\133131b09bf02d8c12a4cd3fcca38135\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 327
 328        <activity
 328-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c3cbc4e9aa1a5b62d02d6295518d8637\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
@@ -651,11 +651,11 @@
 347-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c55bd3cd8b1763255e8770e1fbb85218\play-services-measurement-20.0.0\AndroidManifest.xml:43:13-69
 348
 349        <meta-data
-349-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+349-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 350            android:name="com.google.android.gms.version"
-350-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+350-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 351            android:value="@integer/google_play_services_version" />
-351-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\aedfae2b9797d098582f6582b194d71c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+351-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2a68bcd5e7ed295416145bc774f34138\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 352    </application>
 353
 354</manifest>

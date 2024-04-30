@@ -25,6 +25,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -39,7 +40,9 @@ import de.hdodenhof.circleimageview.CircleImageView;
 import info.vams.zktecoedu.reception.Activity.BaseActivity;
 import info.vams.zktecoedu.reception.Activity.CaptureActivity;
 import info.vams.zktecoedu.reception.Activity.LoginActivity;
+import info.vams.zktecoedu.reception.Activity.VisitorEntryActivityOne;
 import info.vams.zktecoedu.reception.Helper.FileTransferHelper;
+import info.vams.zktecoedu.reception.Model.ImageUploadObject;
 import info.vams.zktecoedu.reception.Model.ParkingModels.ParkCheckIn.ParkCheckInResp;
 import info.vams.zktecoedu.reception.R;
 import info.vams.zktecoedu.reception.Retrofit.Helpers.IGetResponse;
@@ -317,11 +320,11 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
         if (lstParkingUri.size() >= 6) {
             Toast.makeText(ParkingPhotoActivity.this, "Max Image limit reached", Toast.LENGTH_LONG).show();
         } else {
-            if (Utilities.getDevice().equalsIgnoreCase("samsung")) {
-                //captureVisitorImageCamera2();
-                captureDocumentImage();
-
-            } else {
+            if (Utilities.getDevice().equalsIgnoreCase("samsung") || Utilities.getDevice().equalsIgnoreCase("lenovo")) {
+                captureVisitorImageCamera2();
+                //captureDocumentImage();
+            }
+            else {
                 captureDocumentImage();
             }
         }
@@ -343,7 +346,9 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
             } else {
                 intent.putExtra("android.intent.extras.CAMERA_FACING", Camera.CameraInfo.CAMERA_FACING_BACK);
             }
-            startActivityForResult(intent, PICK_IMAGE_ID);
+            if (fileUri!=null) {
+                startActivityForResult(intent, PICK_IMAGE_ID);
+            }
         }catch (Exception e){
             Log.e(TAG, "captureDocumentImage: "+e.getMessage() );
             Toast.makeText(this,"something went wrong please try again",Toast.LENGTH_SHORT).show();
@@ -431,6 +436,60 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
 
     @Override
     public void image_attachment(int from, File fileloaction, String filename, Bitmap file, Uri uri) {
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        file.compress(Bitmap.CompressFormat.JPEG, 25 /*ignored for PNG*/, bos);
+        byte[] bitmapdata = bos.toByteArray();
+
+        FileOutputStream fos = null;
+        try {
+            fos = new FileOutputStream(fileloaction);
+            fos.write(bitmapdata);
+            fos.flush();
+            fos.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            File iconFile = new File(fileloaction.getPath());
+            Bitmap tempBitmap = BitmapFactory.decodeFile(iconFile.getAbsolutePath());
+            if (tempBitmap != null) {
+                if (lstParkingUri.size() == 0) {
+                    imgvCapture1.setImageBitmap(tempBitmap);
+                    imgvCapture1.setBackgroundColor(getResources().getColor(R.color.white));
+                    lstParkingUri.put(IMAGE_1, uri);
+                } else if (lstParkingUri.size() == 1) {
+                    imgvCapture2.setImageBitmap(tempBitmap);
+                    imgvCapture2.setBackgroundColor(getResources().getColor(R.color.white));
+                    lstParkingUri.put(IMAGE_2, uri);
+                } else if (lstParkingUri.size() == 2) {
+                    imgvCapture3.setImageBitmap(tempBitmap);
+                    imgvCapture3.setBackgroundColor(getResources().getColor(R.color.white));
+                    lstParkingUri.put(IMAGE_3, uri);
+                } else if (lstParkingUri.size() == 3) {
+                    imgvCapture4.setImageBitmap(tempBitmap);
+                    imgvCapture4.setBackgroundColor(getResources().getColor(R.color.white));
+                    lstParkingUri.put(IMAGE_4, uri);
+                } else if (lstParkingUri.size() == 4) {
+                    imgvCapture5.setImageBitmap(tempBitmap);
+                    imgvCapture5.setBackgroundColor(getResources().getColor(R.color.white));
+                    lstParkingUri.put(IMAGE_5, uri);
+                } else if (lstParkingUri.size() == 5) {
+                    imgvCapture6.setImageBitmap(tempBitmap);
+                    imgvCapture6.setBackgroundColor(getResources().getColor(R.color.white));
+                    lstParkingUri.put(IMAGE_6, uri);
+                }
+            } else {
+                Utilities.showPopup(ParkingPhotoActivity.this, "", "No Image Found");
+            }
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            Utilities.writeLog(AppConfig.LOG_DIR, AppConfig.LOG_FILE,
+                    "Line no:" + e.getStackTrace()[0].getLineNumber() + Utilities.getCurrentDateTime() + ":\n" + getLocalClassName());
+        }
 
     }
 
@@ -439,7 +498,7 @@ public class ParkingPhotoActivity extends BaseActivity implements Imageutils.Ima
         super.onActivityResult(requestCode, resultCode, data);
         try {
             if (resultCode != Activity.RESULT_CANCELED) {
-                Log.e(TAG, "onActivityResult: "+fileUri.getPath() );
+               // Log.e(TAG, "onActivityResult: "+fileUri.getPath() );
 
                 switch (requestCode) {
                     case PICK_IMAGE_ID:

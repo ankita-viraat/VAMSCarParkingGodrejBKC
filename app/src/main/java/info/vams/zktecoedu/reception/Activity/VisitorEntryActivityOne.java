@@ -2906,8 +2906,8 @@ public class VisitorEntryActivityOne extends BaseActivity implements View.OnClic
                     case PICK_IMAGE_ID:
                         try {
                             BitmapFactory.Options options = new BitmapFactory.Options();
-                            final Bitmap bitmap = BitmapFactory.decodeFile(fileUri.getPath(), options);
-                            Bitmap tempBitmap = Utilities.modifyOrientation(bitmap, fileUri.getPath(), false);
+                            final Bitmap tempBitmap = BitmapFactory.decodeFile(fileUri.getPath(), options);
+                          //  Bitmap tempBitmap = Utilities.modifyOrientation(bitmap, fileUri.getPath(), false);
 
                             Uri uri = null;
                             // make a copy of file
@@ -2930,7 +2930,7 @@ public class VisitorEntryActivityOne extends BaseActivity implements View.OnClic
 
                             Log.d("TAG", "Image size = " + Integer.parseInt(String.valueOf(file.length() / 1024)));
 
-                        } catch (IOException e) {
+                        } catch (Exception e) {
                             e.printStackTrace();
                         }
 

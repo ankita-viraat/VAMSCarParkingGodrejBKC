@@ -37,8 +37,10 @@ public class AppConfig {
 //    public static final String WEB_URL = "http://182.72.92.110:8082/VamsCommercialExcel400/";
     //public static final String WEB_URL = "https://www.vaspl.in/vamsgodrejbkc/";
   //  public static final String WEB_URL = " https://vamsglobal.in/VamsCommercialExcelVer402/";
-    public static final String WEB_URL = "https://www.vtlpl.in/VAMSGodrejbkc/";
-   // public static final String WEB_URL = "https://182.72.92.110:9081/VamsCommercialExcel400/";
+  //  public static final String WEB_URL = "https://www.vtlpl.in/VAMSGodrejbkc/";
+   // public static final String WEB_URL = "https://www.valabs.info/VAMSGodrejv/";
+ public static final String WEB_URL = "https://vamsglobal.in/VamsCommercialExcel460/"; // dev
+ // public static final String WEB_URL = "https://182.72.92.110:9081/VamsCommercialExcel400/";
  //   public static final String WEB_URL = "https://vamsglobal.in:9081/VamsCommercialExcelVer402/";
     //Web Methods
     public static final String TOKEN = "token";
@@ -87,7 +89,6 @@ public class AppConfig {
     public static final String GET_PARKING_VISITOR = "api/Parking/GetVisitor";
     public static final String GET_PARKING_EMPLOYEE = "api/Parking/SearchEmployeeAndVisitor";
     public static final String GET_PARKING_LOCATION_LIST = "api/ParkingLocation/GetParKingLocationList";
-
 
 
     // Image handler
