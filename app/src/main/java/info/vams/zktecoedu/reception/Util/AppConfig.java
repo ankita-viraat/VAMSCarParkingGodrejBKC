@@ -40,6 +40,7 @@ public class AppConfig {
   //  public static final String WEB_URL = "https://www.vtlpl.in/VAMSGodrejbkc/";
    // public static final String WEB_URL = "https://www.valabs.info/VAMSGodrejv/";
  public static final String WEB_URL = "https://vamsglobal.in/VamsCommercialExcel460/"; // dev
+ //public static final String WEB_URL = " https://www.valabs.info/VAMSGodrejv/";
  // public static final String WEB_URL = "https://182.72.92.110:9081/VamsCommercialExcel400/";
  //   public static final String WEB_URL = "https://vamsglobal.in:9081/VamsCommercialExcelVer402/";
     //Web Methods

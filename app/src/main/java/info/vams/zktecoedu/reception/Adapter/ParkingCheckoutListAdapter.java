@@ -87,6 +87,7 @@ public class ParkingCheckoutListAdapter extends RecyclerView.Adapter {
                 holder.tvStatus.setText(logoutListData.getStatus());
                 holder.tvCompany.setText(logoutListData.getTenantName());
                 holder.tvParkLoc.setText(logoutListData.getParkingLocationName());
+                holder.tvSubLoc.setText(logoutListData.getSubLocation());
                 if (logoutListData.getStatus() != null && logoutListData.getStatus().equalsIgnoreCase("out")) {
                     holder.btnLogout.setVisibility(View.GONE);
                 } else {
@@ -150,7 +151,7 @@ public class ParkingCheckoutListAdapter extends RecyclerView.Adapter {
     }
 
     private class MyHolder extends RecyclerView.ViewHolder {
-        TextView tvName, tvCellnumber, tvVehicleNumber, tvInTime, tvStatus, tvParkLoc, tvCompany;
+        TextView tvName, tvCellnumber, tvVehicleNumber, tvInTime, tvStatus, tvParkLoc ,tvSubLoc, tvCompany;
         Button btnLogout;
 
         public MyHolder(View itemView) {
@@ -162,6 +163,7 @@ public class ParkingCheckoutListAdapter extends RecyclerView.Adapter {
             tvStatus = (TextView) itemView.findViewById(R.id.tvStatus);
             btnLogout = itemView.findViewById(R.id.btnLogoutButton);
             tvParkLoc = itemView.findViewById(R.id.tvParkLoc);
+            tvSubLoc = itemView.findViewById(R.id.tvSubLoc);
             tvCompany = itemView.findViewById(R.id.tvCompany);
 
         }
